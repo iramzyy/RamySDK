@@ -1,0 +1,151 @@
+PODS:
+  - Alamofire (5.4.1)
+  - AppCenter (4.1.1):
+    - AppCenter/Analytics (= 4.1.1)
+    - AppCenter/Crashes (= 4.1.1)
+  - AppCenter/Analytics (4.1.1):
+    - AppCenter/Core
+  - AppCenter/Core (4.1.1)
+  - AppCenter/Crashes (4.1.1):
+    - AppCenter/Core
+  - BiometricAuthentication (3.1.3)
+  - Carbon (1.0.0-rc.6):
+    - DifferenceKit/Core (~> 1.1)
+  - DifferenceKit/Core (1.1.5)
+  - DynamicBlurView (4.1.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KeychainSwift (19.0.0)
+  - Kingfisher (6.2.1)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - PhoneNumberKit (3.3.3):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.3)
+    - PhoneNumberKit/UIKit (= 3.3.3)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.3)
+  - PhoneNumberKit/UIKit (3.3.3):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PKHUD (5.3.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - QuickLayout (3.0.0)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+  - SnapKit (5.0.1)
+  - SVPinView (1.0.11)
+  - SwiftEntryKit (1.2.7):
+    - QuickLayout (= 3.0.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftMessages (9.0.2):
+    - SwiftMessages/App (= 9.0.2)
+  - SwiftMessages/App (9.0.2)
+
+DEPENDENCIES:
+  - AppCenter
+  - BiometricAuthentication
+  - Carbon (~> 1.0.0-rc.6)
+  - IQKeyboardManagerSwift (~> 6.5)
+  - KeychainSwift (~> 19.0)
+  - Kingfisher
+  - Moya/RxSwift (~> 14.0)
+  - PhoneNumberKit
+  - PKHUD (~> 5.3)
+  - PopupDialog (~> 1.1)
+  - R.swift (~> 5.2.2)
+  - RxCocoa
+  - RxSwift
+  - SnapKit (~> 5.0.0)
+  - SVPinView
+  - SwiftEntryKit
+  - SwifterSwift (~> 5.2.0)
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppCenter
+    - BiometricAuthentication
+    - Carbon
+    - DifferenceKit
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Kingfisher
+    - Moya
+    - PhoneNumberKit
+    - PKHUD
+    - PopupDialog
+    - QuickLayout
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVPinView
+    - SwiftEntryKit
+    - SwifterSwift
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AppCenter: cd53e3ed3563cc720bcb806c9731a12389b40d44
+  BiometricAuthentication: b63d51be9260ba94165e032829ae78f074b129df
+  Carbon: 84c3402754e682960ef85dd20a2fe44c723701d2
+  DifferenceKit: 516f12e336ed65a3a0665847b5c3cb5cad4bd4ea
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PhoneNumberKit: 4ce83273551c4d2ae10b7361162f4283dd02835f
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+  SwiftEntryKit: 537c92699d6034efb1ef9c32b11e0b37c97aa589
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftMessages: 77b847d1405f99046ffbd0d856bc7d73e6892686
+
+PODFILE CHECKSUM: 86d6b59e1a6417b22cdadcc3a6374f629ecf181b
+
+COCOAPODS: 1.10.1
