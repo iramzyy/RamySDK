@@ -1,5 +1,5 @@
 //
-//  UI.swift
+//  Theme.swift
 //  RamySDK
 //
 //  Created by Ahmed Ramy on 31/05/2021.
@@ -16,6 +16,7 @@ protocol Theme {
   var success: BrandColor { get }
   var warning: BrandColor { get }
   var danger: BrandColor { get }
+  var info: BrandColor { get }
 }
 
 protocol BrandColor {
@@ -43,26 +44,6 @@ protocol Transparency {
   
   func light(by percentage: CGFloat)
   func dark(by percentage: CGFloat)
-}
-
-public struct LightTheme: Theme {
-  var primary: BrandColor
-  var secondary: BrandColor
-  var monochromatic: Monochromatic
-  var transparency: Transparency
-  var success: BrandColor
-  var warning: BrandColor
-  var danger: BrandColor
-}
-
-public struct DarkTheme: Theme {
-  var primary: BrandColor
-  var secondary: BrandColor
-  var monochromatic: Monochromatic
-  var transparency: Transparency
-  var success: BrandColor
-  var warning: BrandColor
-  var danger: BrandColor
 }
 
 public struct PrimaryColor: BrandColor {
@@ -105,9 +86,17 @@ public struct DangerColor: BrandColor {
   var background: UIColor = .init(named: "Danger.background")!
 }
 
+public struct InfoColor: BrandColor {
+  var `default`: UIColor = .init(named: "Info.default")!
+  var dark: UIColor  = .init(named: "Info.dark")!
+  var darkMode: UIColor = .init(named: "Info.darkMode")!
+  var light: UIColor = .init(named: "Info.light")!
+  var background: UIColor = .init(named: "Info.background")!
+}
+
 public struct TransparencyColor: Transparency {
-  var light: UIColor = .init(named: "Light.Full")!
-  var dark: UIColor = .init(named: "Dark.Full")!
+  var light: UIColor = .init(named: "Light.full")!
+  var dark: UIColor = .init(named: "Dark.full")!
   
   func light(by percentage: CGFloat) {
     light.withAlphaComponent(percentage / 100)

@@ -6,6 +6,17 @@ def hex_color_to_rgba(hex, opacity)
   return rgb + [opacity]
 end
 
+def open_struct_to_hash(object, hash = {})
+  object.each_pair do |key, value|
+    hash[key] = case value
+                  when OpenStruct then open_struct_to_hash(value)
+                  when Array then value.map { |v| open_struct_to_hash(v) }
+                  else value
+                end
+  end
+  hash
+end
+
 file = File.read('./Colors-Config.json')
 colors = JSON.parse(file, object_class: OpenStruct)
 
@@ -16,16 +27,16 @@ colors.each { |color|
     assets_color_json.colors.each { |asset_color|
       unless asset_color.appearances.nil?
         rgb = hex_color_to_rgba(sub_color.dark, 1)
-        asset_color.color.components.red = rgb[0]
-        asset_color.color.components.green = rgb[1]
-        asset_color.color.components.blue = rgb[2]
+        asset_color.color.components.red = "#{rgb[0]}"
+        asset_color.color.components.green = "#{rgb[1]}"
+        asset_color.color.components.blue = "#{rgb[2]}"
       else
         rgb = hex_color_to_rgba(sub_color.light, 1)
-        asset_color.color.components.red = rgb[0]
-        asset_color.color.components.green = rgb[1]
-        asset_color.color.components.blue = rgb[2]
+        asset_color.color.components.red = "#{rgb[0]}"
+        asset_color.color.components.green = "#{rgb[1]}"
+        asset_color.color.components.blue = "#{rgb[2]}"
       end
     }
-    File.write(content_json_path, JSON.dump(assets_color_json.to_h))
+    File.write(content_json_path, JSON.pretty_generate(open_struct_to_hash(assets_color_json)))
   }
 }

@@ -13,7 +13,7 @@
 		B83A70092664B01300F76930 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70082664B01300F76930 /* R.generated.swift */; };
 		B83A700B2664B03400F76930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83A700A2664B03400F76930 /* Assets.xcassets */; };
 		B83A700D2664B10300F76930 /* RatingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A700C2664B10300F76930 /* RatingsFactory.swift */; };
-		B83A70112664B75A00F76930 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70102664B75A00F76930 /* UI.swift */; };
+		B83A70112664B75A00F76930 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70102664B75A00F76930 /* Theme.swift */; };
 		B8949DB026644D7000E7472E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8949DAF26644D7000E7472E /* Preview Assets.xcassets */; };
 		B8949DB326644D7000E7472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8949DB126644D7000E7472E /* LaunchScreen.storyboard */; };
 		B8949DBE26644D7000E7472E /* RamySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949DBD26644D7000E7472E /* RamySDKTests.swift */; };
@@ -213,7 +213,7 @@
 		B83A70082664B01300F76930 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B83A700A2664B03400F76930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83A700C2664B10300F76930 /* RatingsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsFactory.swift; sourceTree = "<group>"; };
-		B83A70102664B75A00F76930 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		B83A70102664B75A00F76930 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B8949DA326644D6C00E7472E /* RamySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8949DAF26644D7000E7472E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8949DB226644D7000E7472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -433,7 +433,7 @@
 		B83A700F2664B73400F76930 /* Pegasus Design System */ = {
 			isa = PBXGroup;
 			children = (
-				B83A70102664B75A00F76930 /* UI.swift */,
+				B83A70102664B75A00F76930 /* Theme.swift */,
 			);
 			path = "Pegasus Design System";
 			sourceTree = "<group>";
@@ -1499,7 +1499,7 @@
 				B8949E8A26644DBC00E7472E /* EmptyStateView.swift in Sources */,
 				B8949F4626644DE100E7472E /* UIApplication.swift in Sources */,
 				B8949E4D26644DBC00E7472E /* CorePlugin.swift in Sources */,
-				B83A70112664B75A00F76930 /* UI.swift in Sources */,
+				B83A70112664B75A00F76930 /* Theme.swift in Sources */,
 				B8949F3626644DE100E7472E /* PhoneAuthService.swift in Sources */,
 				B8949F5526644DE200E7472E /* Transaction.swift in Sources */,
 				B8949E9326644DBC00E7472E /* LoadingButton.swift in Sources */,
