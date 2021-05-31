@@ -82,27 +82,27 @@ public struct SecondaryColor: BrandColor {
 }
 
 public struct SuccessColor: BrandColor {
-  var `default`: UIColor = .init(named: "Secondary.default")!
-  var dark: UIColor  = .init(named: "Secondary.dark")!
-  var darkMode: UIColor = .init(named: "Secondary.darkMode")!
-  var light: UIColor = .init(named: "Secondary.light")!
-  var background: UIColor = .init(named: "Secondary.background")!
+  var `default`: UIColor = .init(named: "Success.default")!
+  var dark: UIColor  = .init(named: "Success.dark")!
+  var darkMode: UIColor = .init(named: "Success.darkMode")!
+  var light: UIColor = .init(named: "Success.light")!
+  var background: UIColor = .init(named: "Success.background")!
 }
 
 public struct WarningColor: BrandColor {
-  var `default`: UIColor = .init(named: "Secondary.default")!
-  var dark: UIColor  = .init(named: "Secondary.dark")!
-  var darkMode: UIColor = .init(named: "Secondary.darkMode")!
-  var light: UIColor = .init(named: "Secondary.light")!
-  var background: UIColor = .init(named: "Secondary.background")!
+  var `default`: UIColor = .init(named: "Warning.default")!
+  var dark: UIColor  = .init(named: "Warning.dark")!
+  var darkMode: UIColor = .init(named: "Warning.darkMode")!
+  var light: UIColor = .init(named: "Warning.light")!
+  var background: UIColor = .init(named: "Warning.background")!
 }
 
 public struct DangerColor: BrandColor {
-  var `default`: UIColor = .init(named: "Secondary.default")!
-  var dark: UIColor  = .init(named: "Secondary.dark")!
-  var darkMode: UIColor = .init(named: "Secondary.darkMode")!
-  var light: UIColor = .init(named: "Secondary.light")!
-  var background: UIColor = .init(named: "Secondary.background")!
+  var `default`: UIColor = .init(named: "Danger.default")!
+  var dark: UIColor  = .init(named: "Danger.dark")!
+  var darkMode: UIColor = .init(named: "Danger.darkMode")!
+  var light: UIColor = .init(named: "Danger.light")!
+  var background: UIColor = .init(named: "Danger.background")!
 }
 
 public struct TransparencyColor: Transparency {

@@ -1,0 +1,28 @@
+[
+   {
+      "type":"Primary",
+      "assets_path":"./RamySDK/Common/UI/Assets.xcassets/Colors/Primary",
+      "types":[
+         {
+            "type":"default",
+            "light":"#FB0000",
+            "dark":"#000000"
+         },
+         {
+            "type":"dark",
+            "light":"#6C00F9",
+            "dark":"#AD93FF"
+         },
+         {
+            "type":"light",
+            "light":"#4F00B2",
+            "dark":"#C0BDFF"
+         },
+         {
+            "type":"background",
+            "light":"#EBECFF",
+            "dark":"#EBECFF"
+         }
+      ]
+   }
+]
