@@ -8,12 +8,12 @@
 import UIKit.UIViewController
 
 public enum OTPCoordinator {
-  public static func startFlow(phoneNumber: String, onOTPCompletion: @escaping Callback<OTPVerificationStatus>) -> UIViewController {
-    let vc = OTPViewController()
-    let vm = OTPViewModel(router: vc.router, interactor: OTPInteractor(phoneNumber: phoneNumber))
-    vm.onOTPCompletion = onOTPCompletion
-    vc.bind(to: vm)
-    
-    return vc
-  }
+//  public static func startFlow(phoneNumber: String, onOTPCompletion: @escaping Callback<OTPVerificationStatus>) -> UIViewController {
+//    let vc = OTPViewController()
+//    let vm = OTPViewModel(router: vc.router, interactor: OTPInteractor(phoneNumber: phoneNumber))
+//    vm.onOTPCompletion = onOTPCompletion
+//    vc.bind(to: vm)
+//    
+//    return vc
+//  }
 }

@@ -10,8 +10,6 @@ import UIKit
 
 typealias Spacing = Configurations.UI.Spacing
 typealias Pin = Configurations.UI.Pin
-typealias QuickLinks = Configurations.UI.QuickLinks
-typealias TransactionHistories = Configurations.UI.TransactionHistories
 typealias Profile = Configurations.UI.Profile
 typealias FontSize = Configurations.UI.FontSize
 typealias Font = Configurations.UI.Font
@@ -62,7 +60,7 @@ enum Configurations {
       public static var activeCornerRadius: CGFloat = 8
       public static var cornerRadius: CGFloat = 8
       public static var placeholder: String = "••••••"
-      public static var font: UIFont = FontFactory.getLocalizedFont(.bold, 15)
+//      public static var font: UIFont = FontFactory.getLocalizedFont(.bold, 15)
     }
     
     enum QuickLinks {

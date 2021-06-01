@@ -22,8 +22,6 @@ extension CorePlugin: ApplicationPlugin {
     ServiceLocator.shared = ServiceLocator(
       network: network,
       cacheManager: cache,
-      wallet: wallet,
-      transaction: transactionService,
       auth: AuthenticationService(),
       repository: RepositoryService(
         network: network,

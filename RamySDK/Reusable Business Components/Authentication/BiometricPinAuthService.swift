@@ -7,6 +7,19 @@
 
 import BiometricAuthentication
 
+public enum VerificationMethod {
+  case biometric
+  case pin
+  
+  init(rawValue: String) {
+    switch rawValue {
+    case "biometric": self = .biometric
+    case "pin": self = .pin
+    default: self = .biometric
+    }
+  }
+}
+
 public protocol BiometricPinAuthServiceProtocol: Service {
   func authenticate(through preferredMethod: VerificationMethod, _ onAuth: @escaping Handler<Void>)
 }

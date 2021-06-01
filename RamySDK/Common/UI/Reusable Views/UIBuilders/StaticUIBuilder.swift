@@ -35,7 +35,6 @@ public enum StaticSectionUIDataType {
   case picker(PickerUIDataModelProtocol)
   case stepper(title: String, startingValue: Double, onValueChanging: Callback<Double>)
   case `switch`(title: String, isOn: Bool, contents: [StaticSectionUIDataType], onSwitching: Callback<Bool>)
-  case transaction(model: ROIHistoryItemDataModelProtocol)
 }
 
 public struct StaticUIDataModel: StaticUIDataModelProtocol {
@@ -125,8 +124,6 @@ final class StaticUIBuilder: UIBuilder {
               picker.preferredDatePickerStyle = .inline
             } else if #available(iOS 13.4, *) {
               picker.preferredDatePickerStyle = .compact
-            } else {
-              picker.preferredDatePickerStyle = .wheels
             }
             picker.datePickerMode = type
             picker.setControlEvent(.valueChanged) {

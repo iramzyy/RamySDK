@@ -3,7 +3,7 @@
 //  RamySDK
 //
 //  Created by Ahmed Ramy on 31/05/2021.
-//  Copyright © 2021 Nerdor. All rights reserved.
+//  Copyright © 2021 RamySDK. All rights reserved.
 //
 
 import SwiftEntryKit

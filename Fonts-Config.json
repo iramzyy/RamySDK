@@ -1,0 +1,21 @@
+{
+  "source": "./SDK-Fonts",
+  "destination": "./RamySDK/Common/UI/Pegasus Design System/Fonts",
+  "supported_weights": ["Regular", "Bold"],
+  "fonts": [
+    {
+      "family": "Poppins",
+      "locale": "english",
+      "type": "sans-serif"
+    },
+    {
+      "family": "Cairo",
+      "locale": "arabic",
+      "type": "sans-serif"
+    }
+  ],
+  "default_configurations": {
+    "type": "sans-serif",
+    "locale": "english"
+  }
+}
