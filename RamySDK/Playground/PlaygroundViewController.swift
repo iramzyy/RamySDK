@@ -54,5 +54,18 @@ final class PlaygroundViewController: ListableViewController, NavigationComponen
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    RatingsFactory.showRatingView(viewModel: .init(steps: [
+      .init(
+        title: "How big is your love to Salma?",
+        description: "❤️",
+        content: [
+          .init(title: "🌊", description: "As big as the ocean!"),
+          .init(title: "🌚", description: "As big as the moon!"),
+          .init(title: "🌍", description: "As big as the world!"),
+          .init(title: "🌞", description: "As big as the Sun!"),
+          .init(title: "🌌", description: "Aaaaad keda aho (Galaxies) 😌❤️")
+        ]
+      )
+    ]))
   }
 }

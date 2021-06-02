@@ -13,7 +13,6 @@
 		769BCAFBEA132DB5418D540E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */; };
 		867D1A9355FC2B6B24529A2C /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82406F86A6685A73F9D1139D /* fonts.json */; };
 		8E70EAB5DBB01485CFCA3A64 /* Pods_RamySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC69C9F2756C75218DEAE6F /* Pods_RamySDK.framework */; };
-		B83A70092664B01300F76930 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70082664B01300F76930 /* R.generated.swift */; };
 		B83A700B2664B03400F76930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83A700A2664B03400F76930 /* Assets.xcassets */; };
 		B83A700D2664B10300F76930 /* RatingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A700C2664B10300F76930 /* RatingsFactory.swift */; };
 		B83A70112664B75A00F76930 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70102664B75A00F76930 /* Theme.swift */; };
@@ -21,6 +20,10 @@
 		B85307A826659EB6008023C3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85307A726659EB6008023C3 /* Colors.swift */; };
 		B87654A926663BBC00E19EA7 /* StopWatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654A826663BBC00E19EA7 /* StopWatchService.swift */; };
 		B87654AE2666508A00E19EA7 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654AD2666508A00E19EA7 /* Fonts.swift */; };
+		B87654B326670BB700E19EA7 /* ThemePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654B226670BB700E19EA7 /* ThemePlugin.swift */; };
+		B87654B526670D1700E19EA7 /* FontConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654B426670D1700E19EA7 /* FontConfig.swift */; };
+		B87654B82667E34B00E19EA7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654B72667E34B00E19EA7 /* R.generated.swift */; };
+		B87654BB2668204700E19EA7 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87654BA2668204700E19EA7 /* Metrics.swift */; };
 		B8949DB026644D7000E7472E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8949DAF26644D7000E7472E /* Preview Assets.xcassets */; };
 		B8949DB326644D7000E7472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8949DB126644D7000E7472E /* LaunchScreen.storyboard */; };
 		B8949DBE26644D7000E7472E /* RamySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949DBD26644D7000E7472E /* RamySDKTests.swift */; };
@@ -216,7 +219,6 @@
 		A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		A9995B42A458642A11EAB878 /* libPods-RamySDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamySDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAD87D3990522DDC26E1738 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
-		B83A70082664B01300F76930 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B83A700A2664B03400F76930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83A700C2664B10300F76930 /* RatingsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsFactory.swift; sourceTree = "<group>"; };
 		B83A70102664B75A00F76930 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -224,6 +226,10 @@
 		B85307A726659EB6008023C3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B87654A826663BBC00E19EA7 /* StopWatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchService.swift; sourceTree = "<group>"; };
 		B87654AD2666508A00E19EA7 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B87654B226670BB700E19EA7 /* ThemePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePlugin.swift; sourceTree = "<group>"; };
+		B87654B426670D1700E19EA7 /* FontConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontConfig.swift; sourceTree = "<group>"; };
+		B87654B72667E34B00E19EA7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		B87654BA2668204700E19EA7 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
 		B8949DA326644D6C00E7472E /* RamySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8949DAF26644D7000E7472E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8949DB226644D7000E7472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -442,6 +448,7 @@
 		B83A700F2664B73400F76930 /* Pegasus Design System */ = {
 			isa = PBXGroup;
 			children = (
+				B87654B92668204100E19EA7 /* Metrics */,
 				B87654AC2666507000E19EA7 /* Fonts */,
 				B83A70102664B75A00F76930 /* Theme.swift */,
 				B85307A726659EB6008023C3 /* Colors.swift */,
@@ -466,6 +473,7 @@
 				B87654B02666CA8700E19EA7 /* Families */,
 				B87654AD2666508A00E19EA7 /* Fonts.swift */,
 				82406F86A6685A73F9D1139D /* fonts.json */,
+				B87654B426670D1700E19EA7 /* FontConfig.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -515,6 +523,14 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		B87654B92668204100E19EA7 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				B87654BA2668204700E19EA7 /* Metrics.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
 		B8949D9A26644D6C00E7472E = {
 			isa = PBXGroup;
 			children = (
@@ -543,7 +559,7 @@
 			children = (
 				B8949F5926644DEC00E7472E /* Playground */,
 				B8949E9C26644DE100E7472E /* Reusable Business Components */,
-				B8949DD626644DAF00E7472E /* Common */,
+				B8949DD626644DAF00E7472E /* Reusable UI Components */,
 				B8949DB126644D7000E7472E /* LaunchScreen.storyboard */,
 				B8949DB426644D7000E7472E /* Info.plist */,
 				B8949DAE26644D7000E7472E /* Preview Content */,
@@ -577,7 +593,7 @@
 			path = RamySDKUITests;
 			sourceTree = "<group>";
 		};
-		B8949DD626644DAF00E7472E /* Common */ = {
+		B8949DD626644DAF00E7472E /* Reusable UI Components */ = {
 			isa = PBXGroup;
 			children = (
 				B8949E9B26644DC200E7472E /* Supporting Files */,
@@ -586,7 +602,7 @@
 				B8949E4026644DBC00E7472E /* Plugins */,
 				B8949DE726644DBC00E7472E /* UI */,
 			);
-			path = Common;
+			path = "Reusable UI Components";
 			sourceTree = "<group>";
 		};
 		B8949DD726644DBB00E7472E /* Loggers */ = {
@@ -626,6 +642,7 @@
 				B8949DE426644DBB00E7472E /* CorePlugin.swift */,
 				B8949DE526644DBB00E7472E /* UtilsPlugin.swift */,
 				B8949DE626644DBB00E7472E /* FirebasePlugin.swift */,
+				B87654B226670BB700E19EA7 /* ThemePlugin.swift */,
 			);
 			path = Plugins;
 			sourceTree = "<group>";
@@ -1132,7 +1149,7 @@
 			children = (
 				B8949F0926644DE100E7472E /* Localizables.strings */,
 				B8949F0C26644DE100E7472E /* Language.swift */,
-				B83A70082664B01300F76930 /* R.generated.swift */,
+				B87654B72667E34B00E19EA7 /* R.generated.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -1165,6 +1182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8949DCD26644D7000E7472E /* Build configuration list for PBXNativeTarget "RamySDK" */;
 			buildPhases = (
+				B87654B62667E06800E19EA7 /* Localization */,
 				EA59608C1CB79BF487997A1B /* [CP] Check Pods Manifest.lock */,
 				B8949D9F26644D6C00E7472E /* Sources */,
 				B8949DA026644D6C00E7472E /* Frameworks */,
@@ -1335,6 +1353,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B87654B62667E06800E19EA7 /* Localization */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = Localization;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		EA59608C1CB79BF487997A1B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1394,8 +1432,10 @@
 				B8949E8526644DBC00E7472E /* ImageView.swift in Sources */,
 				B8949F4E26644DE100E7472E /* ApplicationPluggableDelegate.swift in Sources */,
 				B8949E8126644DBC00E7472E /* CollectionViewController.swift in Sources */,
+				B87654B526670D1700E19EA7 /* FontConfig.swift in Sources */,
 				B8949E7C26644DBC00E7472E /* LabelComponent.swift in Sources */,
 				B8949E8026644DBC00E7472E /* ContainerCollectionViewCell.swift in Sources */,
+				B87654B82667E34B00E19EA7 /* R.generated.swift in Sources */,
 				B8949E5126644DBC00E7472E /* ActionKit.swift in Sources */,
 				B8949E7A26644DBC00E7472E /* ButtonComponent.swift in Sources */,
 				B8949F4F26644DE100E7472E /* ScenePluggableDelegate.swift in Sources */,
@@ -1416,6 +1456,7 @@
 				B8949E5A26644DBC00E7472E /* UIView+Extensions.swift in Sources */,
 				B85307A826659EB6008023C3 /* Colors.swift in Sources */,
 				B8949E4F26644DBC00E7472E /* FirebasePlugin.swift in Sources */,
+				B87654B326670BB700E19EA7 /* ThemePlugin.swift in Sources */,
 				B8949F2826644DE100E7472E /* Router.swift in Sources */,
 				B8949F4426644DE100E7472E /* Bool+Extension.swift in Sources */,
 				B87654AE2666508A00E19EA7 /* Fonts.swift in Sources */,
@@ -1431,7 +1472,6 @@
 				B8949F1926644DE100E7472E /* CacheProtocol.swift in Sources */,
 				B8949E8726644DBC00E7472E /* ImageSliderItemViewModel.swift in Sources */,
 				B8949F2F26644DE100E7472E /* UserSettingsService.swift in Sources */,
-				B83A70092664B01300F76930 /* R.generated.swift in Sources */,
 				B8949E9726644DBC00E7472E /* PhoneNumberTextField.swift in Sources */,
 				B8949F3C26644DE100E7472E /* MoneyTransformer.swift in Sources */,
 				B8949E9826644DBC00E7472E /* PullToRefreshPlugin.swift in Sources */,
@@ -1441,6 +1481,7 @@
 				B8949E5E26644DBC00E7472E /* NibIdentifiable.swift in Sources */,
 				B8949F2E26644DE100E7472E /* TimerService.swift in Sources */,
 				B8949E7826644DBC00E7472E /* ImageSliderComponent.swift in Sources */,
+				B87654BB2668204700E19EA7 /* Metrics.swift in Sources */,
 				B8949F4026644DE100E7472E /* Aliases.swift in Sources */,
 				B8949E8326644DBC00E7472E /* HorizontalStackedButtonsView.swift in Sources */,
 				B8949F1826644DE100E7472E /* StorageError.swift in Sources */,
