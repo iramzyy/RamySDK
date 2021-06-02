@@ -67,7 +67,7 @@ public final class InformationUIBuilder: UIBuilder {
       view.addSubview(imageView)
       
       imageView.snp.makeConstraints {
-        $0.size.equalTo(Configurations.UI.Profile.pictureSize)
+//        $0.size.equalTo(Configurations.UI.Profile.pictureSize)
         $0.centerX.equalToSuperview()
         $0.top.bottom.equalToSuperview()
       }
@@ -76,11 +76,11 @@ public final class InformationUIBuilder: UIBuilder {
     case let .field(fieldData):
       return UIStackView(
         arrangedSubviews: [
-          Label(font: Configurations.UI.Font.subheadline, color: R.color.primaryTextColor() ?? .red).then {
+          Label(font: FontStyles.subheadline, color: R.color.primaryTextColor() ?? .red).then {
             $0.text(fieldData.name)
             $0.setContentHuggingPriorityCustom(.both(.must))
           },
-          Label(font: Configurations.UI.Font.body, color: R.color.primaryTextColor() ?? .red).then {
+          Label(font: FontStyles.body, color: R.color.primaryTextColor() ?? .red).then {
             $0.text(fieldData.value)
             $0.edgeInsets = .init(horizontal: Configurations.UI.Spacing.p1, vertical: Configurations.UI.Spacing.p05)
             $0.backgroundColor = R.color.secondaryBackgroundColor() ?? .red

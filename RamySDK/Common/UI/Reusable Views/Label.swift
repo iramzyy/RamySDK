@@ -2,7 +2,7 @@
 //  Label.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/17/20\.
+//  Created by Ahmed Ramy on 11/17/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 
@@ -23,7 +23,7 @@ open class Label: UILabel {
     }
   }
   
-  var customFont: UIFont? {
+  var customFont: Font? {
     didSet {
       text(text)
     }
@@ -37,7 +37,7 @@ open class Label: UILabel {
   
   // MARK: - Initializers
 
-  public init(font: UIFont, color: UIColor) {
+  public init(font: Font, color: UIColor) {
     self.customTextColor = color
     self.customFont = font
     super.init(frame: .zero)

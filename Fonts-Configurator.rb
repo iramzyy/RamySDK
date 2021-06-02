@@ -39,7 +39,7 @@ def add_font_group_files(project)
   font_families_group = get_group("Families", project.groups)
 
   info_plist_file_ref = project.files.find { |file| file.display_name == "Info.plist"}.real_path
-
+  supported_weights = fonts_json.supported_weights
   info_plist = Nokogiri::PList(open(info_plist_file_ref))
 
   pp "Removing all existing fonts in Families group"
@@ -58,6 +58,16 @@ def add_font_group_files(project)
     info_plist["UIAppFonts"].clear
   end
 
+  pp "Removing Fonts from Build Phases Resources Step"
+  supported_weights.each { |weight|
+    project.targets.first.resources_build_phase.files.each { |file|
+      if file.display_name.end_with?("-#{weight}.ttf")
+        pp "Deleting #{file.display_name} from Resources..."
+        file.remove_from_project
+      end
+    }
+  }
+
   fonts_json.fonts.each { |font|
     font_family = font.family
     destination = "#{font_families_group.real_path}/#{font.family}"
@@ -73,12 +83,13 @@ def add_font_group_files(project)
 
 
     Dir.each_child("#{fonts_json.source}/#{font.family}") { |child|
-
-      if fonts_json.supported_weights.any? { |weight| child.end_with?("-#{weight}.ttf") }
+      pp child
+      if supported_weights.any? { |weight| child.end_with?("-#{weight}.ttf") }
         pp "Adding #{child} to #{font_family}"
         if child.end_with? "ttf"
           FileUtils.cp "#{fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
           file_ref = family_group.new_file("#{font_families_group.real_path}/#{font.family}/#{child}")
+          pp "Adding #{child} to Resources"
           project.targets.first.add_resources([file_ref])
           pp "Adding #{child} to Info.plist"
           if info_plist.has_key?("UIAppFonts")
@@ -90,6 +101,7 @@ def add_font_group_files(project)
           pp "You should use tff because its better for Apple Env"
           FileUtils.cp "#{fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
           file_ref = family_group.new_file("#{font_families_group.real_path}/#{font.family}/#{child}")
+          pp "Adding #{child} to Resources"
           project.targets.first.add_resources([file_ref])
           pp "Adding #{child} to Info.plist"
           if info_plist.has_key?("UIAppFonts")
@@ -116,6 +128,13 @@ def add_font_group_files(project)
   configuration_json = File.write("#{font_group.real_path}/fonts.json", JSON.pretty_generate({ :fonts => fonts_json.fonts.map { |e| open_struct_to_hash(e) }, :default_configurations => open_struct_to_hash(fonts_json.default_configurations) }))
   file_ref = font_group.new_file("#{font_group.real_path}/fonts.json")
   project.targets.first.add_resources([file_ref])
+
+  project.targets.first.resources_build_phase.files.each { |file|
+    if file.display_name == "BuildFile"
+      pp "Deleting #{file.display_name}..."
+      file.remove_from_project
+    end
+  }
 end
 
 

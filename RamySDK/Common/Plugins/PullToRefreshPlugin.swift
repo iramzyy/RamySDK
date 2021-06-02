@@ -2,7 +2,7 @@
 //  PullToRefreshPlugin.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/22/20\.
+//  Created by Ahmed Ramy on 11/22/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 

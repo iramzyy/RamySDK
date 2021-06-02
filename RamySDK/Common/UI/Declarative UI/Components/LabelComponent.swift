@@ -2,7 +2,7 @@
 //  LabelComponent.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/17/20\.
+//  Created by Ahmed Ramy on 11/17/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 
@@ -16,13 +16,13 @@ public struct LabelComponent: IdentifiableComponent {
   
   private var text: String?
   private var color: UIColor?
-  private var font: UIFont?
+  private var font: Font?
   private var isCentered: Bool?
   private var backgroundColor: UIColor?
 
   private var attributedText: NSAttributedString?
   
-  public init(text: String, color: UIColor = .black, font: UIFont = TextStyles.body,
+  public init(text: String, color: UIColor = .black, font: Font = FontStyles.caption1,
               isCentered: Bool = false, backgroundColor: UIColor = .white) {
     self.text = text
     self.color = color
@@ -50,7 +50,7 @@ public struct LabelComponent: IdentifiableComponent {
     if let text = text {
       if let color = color, let font = font {
         content.textColor = color
-        content.font = font
+        content.customFont = font
       }
       
       if isCentered == true {

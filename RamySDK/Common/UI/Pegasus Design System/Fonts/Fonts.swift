@@ -8,16 +8,16 @@
 
 import UIKit
 
-protocol FontCustomizable {
+public protocol FontCustomizable {
   func setupFont() -> FontManager
 }
 
-enum FontType {
+public enum FontType:String,  Codable {
   case sansSerif
   case serif
 }
 
-enum FontCategory {
+public enum FontCategory: String, Codable {
   /// Big Titles and large pieces of texts
   case display
   /// Moderate Text
@@ -26,7 +26,7 @@ enum FontCategory {
   case link
 }
 
-enum FontScale {
+public enum FontScale: String, Codable {
   case huge
   case large
   case medium
@@ -34,16 +34,16 @@ enum FontScale {
   case xsmall
 }
 
-enum FontWeight {
+public enum FontWeight: String, Codable {
   case regular
   case bold
 }
 
-enum FontLocale {
+public enum FontLocale: String, Codable {
   case english
   case arabic
   
-  init(language: Language) {
+  public init(language: Language) {
     switch language {
     case .english:
       self = .english
@@ -52,7 +52,7 @@ enum FontLocale {
     }
   }
   
-  func toLanguage() -> Language {
+  public func toLanguage() -> Language {
     switch self {
     case .english:
       return .english
@@ -62,23 +62,17 @@ enum FontLocale {
   }
 }
 
-protocol NFontDetailsProtocol {
-  var name: String { get }
-  var fontLocale: FontLocale { get }
-  var fontType: FontType { get }
-}
-
-protocol NFontProtocol {
-  var fontDetails: NFontDetailsProtocol { get set }
+public protocol FontProtocol: Codable {
+  var fontDetails: FontDetails { get set }
   var fontCategory: FontCategory { get set }
   var fontScale: FontScale { get set }
   var fontWeight: FontWeight { get set }
   var font: UIFont { get }
-  var metrics: NFontMetrics { get }
+  var metrics: FontMetrics { get }
 }
 
-extension NFontProtocol {
-  var metrics: NFontMetrics {
+public extension FontProtocol {
+  var metrics: FontMetrics {
     switch fontCategory {
     case .display:
       switch fontScale {
@@ -118,7 +112,7 @@ extension NFontProtocol {
     }
   }
   
-  var font: UIFont {
+  public var font: UIFont {
     let fontName = "\(fontDetails.name)\(mapWeight(weight: fontWeight))"
     return UIFont(name: fontName, size: metrics.size) ?? .systemFont(ofSize: metrics.size)
   }
@@ -133,32 +127,32 @@ extension NFontProtocol {
   }
 }
 
-protocol NFontMetricsProtocol {
+public protocol FontMetricsProtocol {
   var size: CGFloat { get }
   var lineHeight: CGFloat { get }
   var letterSpacing: CGFloat { get }
 }
 
-struct NFontMetrics: NFontMetricsProtocol {
-  let size: CGFloat
-  let lineHeight: CGFloat
-  let letterSpacing: CGFloat
+public struct FontMetrics: Codable, FontMetricsProtocol {
+  public let size: CGFloat
+  public let lineHeight: CGFloat
+  public let letterSpacing: CGFloat
 }
 
-public struct NFontDetails: NFontDetailsProtocol {
-  var name: String
-  var fontLocale: FontLocale
-  var fontType: FontType
+public struct FontDetails: Codable {
+  public var name: String
+  public var fontLocale: FontLocale
+  public var fontType: FontType
 }
 
-public struct NFont: NFontProtocol {
-  var fontDetails: NFontDetailsProtocol
-  var fontCategory: FontCategory
-  var fontScale: FontScale
-  var fontWeight: FontWeight
+public struct Font: FontProtocol {
+  public var fontDetails: FontDetails
+  public var fontCategory: FontCategory
+  public var fontScale: FontScale
+  public var fontWeight: FontWeight
 }
 
-final class FontManager {
+public final class FontManager {
   static var shared: FontManager!
   var configuration: Configuration
   
@@ -170,12 +164,12 @@ final class FontManager {
     category: FontCategory,
     scale: FontScale,
     weight: FontWeight
-  ) -> NFontProtocol {
-    guard let suitableFont = availableFonts
+  ) -> Font {
+    guard let suitableFont = configuration.availableFonts
             .first(where: { $0.fontLocale == configuration.fontsLocale && $0.fontType == configuration.fontsType })
     else { fatalError("Can't find a suitable font to set") }
     
-    return NFont(fontDetails: suitableFont, fontCategory: category, fontScale: scale, fontWeight: weight)
+    return Font(fontDetails: suitableFont, fontCategory: category, fontScale: scale, fontWeight: weight)
   }
   
   func getFont(
@@ -184,19 +178,19 @@ final class FontManager {
     category: FontCategory,
     scale: FontScale,
     weight: FontWeight
-  ) -> NFontProtocol {
-    guard let suitableFont = availableFonts
+  ) -> Font {
+    guard let suitableFont = configuration.availableFonts
             .first(where: { $0.fontLocale == locale && $0.fontType == type })
     else { return getSuitableFont(category: category, scale: scale, weight: weight) }
     
-    return NFont(fontDetails: suitableFont, fontCategory: category, fontScale: scale, fontWeight: weight)
+    return Font(fontDetails: suitableFont, fontCategory: category, fontScale: scale, fontWeight: weight)
   }
 }
 
-extension FontManager {
+public extension FontManager {
   struct Configuration: Codable {
     var fontsLocale: FontLocale = .english
     var fontsType: FontType = .sansSerif
-    var availableFonts: [NFontDetails] = []
+    var availableFonts: [FontDetails] = []
   }
 }

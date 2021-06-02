@@ -18,12 +18,12 @@ public final class RatingsFactory {
     let selectedImage = EKProperty.ImageContent(
       image: UIImage(named: "ic_star_selected")!.withRenderingMode(.alwaysTemplate),
       displayMode: .inferred,
-      tint: EKColor.ratingStar
+      tint: .clear
     )
     let initialTitle = EKProperty.LabelContent(
       text: "Rate our food",
       style: .init(
-        font: MainFont.medium.with(size: 34),
+        font: .systemFont(ofSize: 17),
         color: .standardContent,
         alignment: .center,
         displayMode: .inferred
@@ -32,7 +32,7 @@ public final class RatingsFactory {
     let initialDescription = EKProperty.LabelContent(
       text: "How was it?",
       style: .init(
-        font: MainFont.light.with(size: 24),
+        font: .systemFont(ofSize: 17),
         color: EKColor.standardContent.with(alpha: 0.5),
         alignment: .center,
         displayMode: .inferred
@@ -43,7 +43,7 @@ public final class RatingsFactory {
                   let itemTitle = EKProperty.LabelContent(
                     text: texts.0,
                     style: .init(
-                      font: MainFont.medium.with(size: 48),
+                      font: .systemFont(ofSize: 17),
                       color: .standardContent,
                       alignment: .center,
                       displayMode: .inferred
@@ -52,7 +52,7 @@ public final class RatingsFactory {
                   let itemDescription = EKProperty.LabelContent(
                     text: texts.1,
                     style: .init(
-                      font: MainFont.light.with(size: 24),
+                      font: .systemFont(ofSize: 17),
                       color: .standardContent,
                       alignment: .center,
                       displayMode: .inferred
@@ -67,8 +67,8 @@ public final class RatingsFactory {
                  }
     
     var message: EKRatingMessage!
-    let lightFont = MainFont.light.with(size: 20)
-    let mediumFont = MainFont.medium.with(size: 20)
+    let lightFont = UIFont.systemFont(ofSize: 17)
+    let mediumFont = UIFont.systemFont(ofSize: 17)
     let closeButtonLabelStyle = EKProperty.LabelStyle(
       font: mediumFont,
       color: .standardContent,
@@ -88,10 +88,9 @@ public final class RatingsFactory {
       }
     }
     
-    let pinkyColor = EKColor.pinky
     let okButtonLabelStyle = EKProperty.LabelStyle(
       font: lightFont,
-      color: pinkyColor,
+      color: .clear,
       displayMode: .inferred
     )
     let okButtonLabel = EKProperty.LabelContent(
@@ -101,13 +100,13 @@ public final class RatingsFactory {
     let okButton = EKProperty.ButtonContent(
       label: okButtonLabel,
       backgroundColor: .clear,
-      highlightedBackgroundColor: pinkyColor.with(alpha: 0.05),
+      highlightedBackgroundColor: EKColor(.clear),
       displayMode: .inferred) {
       SwiftEntryKit.dismiss()
     }
     let buttonsBarContent = EKProperty.ButtonBarContent(
       with: closeButton, okButton,
-      separatorColor: EKColor(light: Color.Gray.light.light, dark: Color.Gray.mid.light),
+      separatorColor: EKColor(light: .clear, dark: .clear),
       horizontalDistributionThreshold: 1,
       displayMode: .inferred,
       expandAnimatedly: true

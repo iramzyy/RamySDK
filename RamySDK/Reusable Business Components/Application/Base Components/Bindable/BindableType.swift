@@ -2,7 +2,7 @@
 //  BindableType.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/18/20\.
+//  Created by Ahmed Ramy on 11/18/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 

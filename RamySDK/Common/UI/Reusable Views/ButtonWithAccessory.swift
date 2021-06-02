@@ -22,7 +22,7 @@ public struct ButtonWithAccessoryUIDataModel: ButtonWithAccessoryUIDataModelProt
 }
 
 public final class ButtonWithAccessory: UIView, Configurable {
-  let label = Label(font: TextStyles.button, color: R.color.textButtonTextColor()!).then {
+  let label = Label(font: FontStyles.body, color: R.color.textButtonTextColor()!).then {
     $0.textAlignment = .center
     $0.setContentResistancePriorityCustom(.both(.must))
     $0.setContentHuggingPriorityCustom(.both(.must))

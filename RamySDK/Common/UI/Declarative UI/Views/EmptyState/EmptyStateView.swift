@@ -2,7 +2,7 @@
 //  EmptyStateView.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/18/20\.
+//  Created by Ahmed Ramy on 11/18/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 
@@ -11,14 +11,14 @@ import UIKit
 public final class EmptyStateView: UIView {
   internal let imageView = UIImageView()
   
-  internal let titleLabel = Label(font: TextStyles.headline, color: .black).then {
+  internal let titleLabel = Label(font: FontStyles.headline, color: .black).then {
     $0.adjustsFontSizeToFitWidth = true
     $0.textAlignment = .center
     $0.numberOfLines = 1
     $0.lineBreakMode = .byWordWrapping
   }
   
-  internal let subtitleLabel = Label(font: TextStyles.body, color: .darkGray).then {
+  internal let subtitleLabel = Label(font: FontStyles.body, color: .darkGray).then {
     $0.adjustsFontSizeToFitWidth = true
     $0.textAlignment = .center
     $0.numberOfLines = 0

@@ -10,7 +10,7 @@ import UIKit
 
 final class NavigationLabelView: UIView, ConfigurableProtocol {
   let titleLabel = UILabel().then {
-    $0.font = TextStyles.navigationBarTitle
+    $0.font = FontStyles.body.font
     $0.textColor = R.color.primaryTextColor()
   }
   

@@ -107,7 +107,7 @@ class BasicTextField: UIView, TextFieldComponentUI {
   let textField = UITextField().then {
     $0.borderStyle = .none
     $0.setPlaceHolderTextColor(R.color.textFieldPlaceholderTextColor() ?? .red)
-    $0.font = TextStyles.body
+    $0.font = FontStyles.body.font
     $0.textColor = R.color.textFieldTextColor()
   }
   

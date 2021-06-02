@@ -8,9 +8,9 @@
 
 import UIKit
 
-protocol Theme: Colorable, FontCustomizable { }
+protocol RTheme: Colorable, FontCustomizable { }
 
-public struct DefaultTheme: Theme {
+public struct DefaultTheme: RTheme {
   var primary: BrandColor = PrimaryPalette()
   var secondary: BrandColor = SecondaryPalette()
   var monochromatic: Monochromatic = MonochromaticPalette()
@@ -20,7 +20,7 @@ public struct DefaultTheme: Theme {
   var danger: BrandColor = DangerPalette()
   var info: BrandColor = InfoPalette()
   
-  func setupFont() -> FontManager {
-    FontManager.shared = .init(configuration: .init())
+  public func setupFont() -> FontManager {
+    .init(configuration: .init())
   }
 }

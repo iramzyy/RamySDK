@@ -7,47 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007E7B03B96380E029AB1BF5 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		04B0D8F8EC54F6BF29A4EFC9 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F10B8AF7BA84EC8EF7F6A5BD /* Cairo-Bold.ttf */; };
-		07E753C22D7C526587F38D30 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		094B609238F68E7F9E2D2A29 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		0D0ECF0ECDA2D46DF2131E04 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		0F6BA241D2A83612F6A03A10 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		1959A016A6F0B210D6EBEF4D /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		1D79CB418ED490B7CE900F49 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		1E07971AFA202C5AD31BF877 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		1EB4333686CEFDCE31B1B1FD /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = E8A19E47EDB51E6FBCE56281 /* fonts.json */; };
-		1F053ACADB785C7DF93F8462 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		30816E8734E5C4FB46B4E828 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		3801AE714A59F253EE91F56D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F2EEECF76F1EBEA7D3188AF /* Poppins-Bold.ttf */; };
-		3CF35E8BD639C9A9056F1ED9 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		43AD867E3198022B350D491E /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		486B3D739583A4A2DD3F5281 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		48FF3AD8A6B48D2C34F36337 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		4C89B6331B0148F3AC3460EE /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		506D507D471DAC8655E9C9D7 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B047E736066197FEB26C1A /* Poppins-Regular.ttf */; };
+		37B5A811D552D90F32D5847E /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */; };
 		514A85594AC4600EFC4B941D /* libPods-RamySDKUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */; };
-		528EEE5208C36593DEBA26E3 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		576EE613B89AB588D92E5DD0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25EBBEA1111972000F57F54D /* Poppins-Bold.ttf */; };
-		5CE75518E7AFBDF98F271F85 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		5E84F222C61A00E556D4ADB1 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		6508E34DB5AD744B60F9A301 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62349CB71F61DE802B9DADF6 /* Cairo-Regular.ttf */; };
-		668841CC05846AE4045815D8 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		689FE3254ED85AAC476A4DE5 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		69063EDE8914CDF31678A0BC /* libPods-RamySDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9995B42A458642A11EAB878 /* libPods-RamySDKTests.a */; };
-		6A0B2C66820D54C5D4F7EA25 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		764DCCABA3109172C4EA0125 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8181D763A265BABF94CBB562 /* Poppins-Bold.ttf */; };
-		7731E44ADA7B492646C92B95 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		787A885DC47E597F3B032EC0 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		769BCAFBEA132DB5418D540E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */; };
+		867D1A9355FC2B6B24529A2C /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82406F86A6685A73F9D1139D /* fonts.json */; };
 		8E70EAB5DBB01485CFCA3A64 /* Pods_RamySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC69C9F2756C75218DEAE6F /* Pods_RamySDK.framework */; };
-		8F18C24E5462CFD6ECC25720 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		99FE9799D0764649DF81D0D9 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		9FB8989F413A97AF721DF817 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		A51BB7148109C627F090B256 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 808525A899A13AE31AD9C6DB /* Cairo-Regular.ttf */; };
-		A79B81C0D6A096BD72E57AF1 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		AD0F7B3776557623DA6278A4 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		AFAA76594B9DE926C80FF922 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		B2198EFF5578E246B81921BD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12F8B72611ED182BFC29FD39 /* Poppins-Regular.ttf */; };
 		B83A70092664B01300F76930 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A70082664B01300F76930 /* R.generated.swift */; };
 		B83A700B2664B03400F76930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83A700A2664B03400F76930 /* Assets.xcassets */; };
 		B83A700D2664B10300F76930 /* RatingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A700C2664B10300F76930 /* RatingsFactory.swift */; };
@@ -128,10 +93,6 @@
 		B8949E9826644DBC00E7472E /* PullToRefreshPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949E4126644DBC00E7472E /* PullToRefreshPlugin.swift */; };
 		B8949E9926644DBC00E7472E /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949E4226644DBC00E7472E /* Plugin.swift */; };
 		B8949E9A26644DBC00E7472E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949E4326644DBC00E7472E /* SceneDelegate.swift */; };
-		B8949F0D26644DE100E7472E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949E9E26644DE100E7472E /* AppCoordinator.swift */; };
-		B8949F0E26644DE100E7472E /* OTPCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949E9F26644DE100E7472E /* OTPCoordinator.swift */; };
-		B8949F0F26644DE100E7472E /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EA026644DE100E7472E /* ProfileCoordinator.swift */; };
-		B8949F1026644DE100E7472E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EA126644DE100E7472E /* MainCoordinator.swift */; };
 		B8949F1126644DE100E7472E /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EA326644DE100E7472E /* Secret.swift */; };
 		B8949F1226644DE100E7472E /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EA726644DE100E7472E /* RealmStorage.swift */; };
 		B8949F1326644DE100E7472E /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EA826644DE100E7472E /* DiskStorage.swift */; };
@@ -196,27 +157,12 @@
 		B8949F5026644DE200E7472E /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949EFF26644DE100E7472E /* ServiceLocator.swift */; };
 		B8949F5126644DE200E7472E /* LoadableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0126644DE100E7472E /* LoadableViewController.swift */; };
 		B8949F5226644DE200E7472E /* NoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0326644DE100E7472E /* NoContent.swift */; };
-		B8949F5326644DE200E7472E /* TransferRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0426644DE100E7472E /* TransferRequest.swift */; };
 		B8949F5426644DE200E7472E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0526644DE100E7472E /* User.swift */; };
-		B8949F5526644DE200E7472E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0626644DE100E7472E /* Transaction.swift */; };
-		B8949F5626644DE200E7472E /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0726644DE100E7472E /* Wallet.swift */; };
 		B8949F5726644DE200E7472E /* Localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8949F0926644DE100E7472E /* Localizables.strings */; };
 		B8949F5826644DE200E7472E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0C26644DE100E7472E /* Language.swift */; };
 		B8949F5B26644DEC00E7472E /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F5A26644DEC00E7472E /* PlaygroundViewController.swift */; };
-		BB2E4FEFABCEFA17DF56FAC0 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		BD237F2778E0913952D47DC9 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E25021FD1CDED9F2F9281E35 /* Cairo-Regular.ttf */; };
-		BE49E1B67ABA3B8E49758767 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C41657EBEAEBDE81865549B /* Cairo-Bold.ttf */; };
-		C36E68875717BEFA7EEFEA8D /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		C4010FBA3DFA5FBAF71079D9 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		C4EDFC8ADCCAD58D243CFABD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		C6A6D3E46544352762B01186 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC09232F527E1B6FF0AA439 /* Poppins-Regular.ttf */; };
-		CBD5D3C7ECD9A4EE7D71C483 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		D09111B455BF8F08E388C6CA /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		DB099D0A10A17BF4F3C845A3 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		EB244DE2EB0BE4BCBFFEC2D9 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE55A1696B7290E60864F1B3 /* Cairo-Bold.ttf */; };
-		EFC50A50F622D9BC1265F414 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		F381F0A413FA0031E2320B8B /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		F8DFA15EF7FEBB7461DFD8F2 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		CF4A0E993FDB89DD39CF5FF3 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */; };
+		DCBC8D02900520922BB7B78E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,21 +184,38 @@
 
 /* Begin PBXFileReference section */
 		04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamySDKUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12F8B72611ED182BFC29FD39 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		0F8AF27BE6215AB16E12C282 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		195E78A335E63573C340F2E0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1A1012D0B9D9825B95534750 /* Pods-RamySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDK.debug.xcconfig"; path = "Target Support Files/Pods-RamySDK/Pods-RamySDK.debug.xcconfig"; sourceTree = "<group>"; };
-		25EBBEA1111972000F57F54D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		2C41657EBEAEBDE81865549B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
-		2FC09232F527E1B6FF0AA439 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		21EE051C39C988BF38BE4868 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2C41657EBEAEBDE81865549B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		2CDA38CB8C4FED80C0011F6D /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		2FC09232F527E1B6FF0AA439 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		452073328E2133D41F274869 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		462B39698838E6BA2E868D2E /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		4AD607068CE2E11796B4A4B1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		526A18A005F22DEB18417FB6 /* Pods-RamySDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKTests.release.xcconfig"; path = "Target Support Files/Pods-RamySDKTests/Pods-RamySDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		541F79D32F9B1E9B9AAAE57B /* Pods-RamySDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKTests.debug.xcconfig"; path = "Target Support Files/Pods-RamySDKTests/Pods-RamySDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		62349CB71F61DE802B9DADF6 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		5A0EAA1C1DC3943F0812D7A9 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		5E0DC5FEA461D4E82426EE9E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		62349CB71F61DE802B9DADF6 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		6922A27893B85343293EC0F8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		6CB3D0B439C90543A0AE3A46 /* Pods-RamySDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-RamySDKUITests/Pods-RamySDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6F2EEECF76F1EBEA7D3188AF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		6F2EEECF76F1EBEA7D3188AF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		7FC69C9F2756C75218DEAE6F /* Pods_RamySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		808525A899A13AE31AD9C6DB /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
-		8181D763A265BABF94CBB562 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		8181D763A265BABF94CBB562 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		82406F86A6685A73F9D1139D /* fonts.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
+		8264196A63ED457CD142BC6C /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		8326966EBF46872CBEE87AD8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		85D10FA28F84490C10A378FB /* Pods-RamySDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKUITests.release.xcconfig"; path = "Target Support Files/Pods-RamySDKUITests/Pods-RamySDKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		991E66120A08D665C795564D /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		9E721A88735D28502CCC18F7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		A9995B42A458642A11EAB878 /* libPods-RamySDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamySDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD87D3990522DDC26E1738 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		B83A70082664B01300F76930 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B83A700A2664B03400F76930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83A700C2664B10300F76930 /* RatingsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsFactory.swift; sourceTree = "<group>"; };
@@ -339,10 +302,6 @@
 		B8949E4126644DBC00E7472E /* PullToRefreshPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshPlugin.swift; sourceTree = "<group>"; };
 		B8949E4226644DBC00E7472E /* Plugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
 		B8949E4326644DBC00E7472E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8949E9E26644DE100E7472E /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		B8949E9F26644DE100E7472E /* OTPCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPCoordinator.swift; sourceTree = "<group>"; };
-		B8949EA026644DE100E7472E /* ProfileCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
-		B8949EA126644DE100E7472E /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		B8949EA326644DE100E7472E /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B8949EA726644DE100E7472E /* RealmStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
 		B8949EA826644DE100E7472E /* DiskStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
@@ -407,19 +366,20 @@
 		B8949EFF26644DE100E7472E /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
 		B8949F0126644DE100E7472E /* LoadableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableViewController.swift; sourceTree = "<group>"; };
 		B8949F0326644DE100E7472E /* NoContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoContent.swift; sourceTree = "<group>"; };
-		B8949F0426644DE100E7472E /* TransferRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferRequest.swift; sourceTree = "<group>"; };
 		B8949F0526644DE100E7472E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B8949F0626644DE100E7472E /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		B8949F0726644DE100E7472E /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		B8949F0A26644DE100E7472E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizables.strings; sourceTree = "<group>"; };
 		B8949F0B26644DE100E7472E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizables.strings; sourceTree = "<group>"; };
 		B8949F0C26644DE100E7472E /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		B8949F5A26644DEC00E7472E /* PlaygroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
-		C0B047E736066197FEB26C1A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		E25021FD1CDED9F2F9281E35 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
-		E8A19E47EDB51E6FBCE56281 /* fonts.json */ = {isa = PBXFileReference; includeInIndex = 1; path = fonts.json; sourceTree = "<group>"; };
-		EE55A1696B7290E60864F1B3 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
-		F10B8AF7BA84EC8EF7F6A5BD /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		C01BD2AFEA1A6C4DF88EE870 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C0B047E736066197FEB26C1A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CC07CD2471DD673910A01545 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CC81796319845A74CB048B51 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		E1955CBA30DCCD8FAD752FDC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E25021FD1CDED9F2F9281E35 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		E3141A4D0D8C50367E6EA416 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		F10B8AF7BA84EC8EF7F6A5BD /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		F451C7F5F90ADEE784FEA00B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		FF1E7022D19CA9739408D21B /* Pods-RamySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDK.release.xcconfig"; path = "Target Support Files/Pods-RamySDK/Pods-RamySDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -451,20 +411,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		336FE9C315050162835CB749 /* Poppins */ = {
+		042365128569D689C713C17B /* Cairo */ = {
 			isa = PBXGroup;
 			children = (
-				12F8B72611ED182BFC29FD39 /* Poppins-Regular.ttf */,
-				25EBBEA1111972000F57F54D /* Poppins-Bold.ttf */,
-			);
-			name = Poppins;
-			sourceTree = "<group>";
-		};
-		530D446D8E7B27B196B82E4B /* Cairo */ = {
-			isa = PBXGroup;
-			children = (
-				808525A899A13AE31AD9C6DB /* Cairo-Regular.ttf */,
-				EE55A1696B7290E60864F1B3 /* Cairo-Bold.ttf */,
+				958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */,
+				A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */,
 			);
 			name = Cairo;
 			sourceTree = "<group>";
@@ -477,6 +428,15 @@
 				04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD84B978FE546698061406EA /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */,
+				3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */,
+			);
+			name = Poppins;
 			sourceTree = "<group>";
 		};
 		B83A700F2664B73400F76930 /* Pegasus Design System */ = {
@@ -505,7 +465,7 @@
 			children = (
 				B87654B02666CA8700E19EA7 /* Families */,
 				B87654AD2666508A00E19EA7 /* Fonts.swift */,
-				E8A19E47EDB51E6FBCE56281 /* fonts.json */,
+				82406F86A6685A73F9D1139D /* fonts.json */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -513,10 +473,46 @@
 		B87654B02666CA8700E19EA7 /* Families */ = {
 			isa = PBXGroup;
 			children = (
-				336FE9C315050162835CB749 /* Poppins */,
-				530D446D8E7B27B196B82E4B /* Cairo */,
+				AD84B978FE546698061406EA /* Poppins */,
+				042365128569D689C713C17B /* Cairo */,
 			);
 			path = Families;
+			sourceTree = "<group>";
+		};
+		B87654B12666F4A300E19EA7 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				2FC09232F527E1B6FF0AA439 /* Poppins-Regular.ttf */,
+				8181D763A265BABF94CBB562 /* Poppins-Bold.ttf */,
+				62349CB71F61DE802B9DADF6 /* Cairo-Regular.ttf */,
+				2C41657EBEAEBDE81865549B /* Cairo-Bold.ttf */,
+				C0B047E736066197FEB26C1A /* Poppins-Regular.ttf */,
+				6F2EEECF76F1EBEA7D3188AF /* Poppins-Bold.ttf */,
+				E25021FD1CDED9F2F9281E35 /* Cairo-Regular.ttf */,
+				F10B8AF7BA84EC8EF7F6A5BD /* Cairo-Bold.ttf */,
+				5E0DC5FEA461D4E82426EE9E /* Poppins-Bold.ttf */,
+				8264196A63ED457CD142BC6C /* Cairo-Bold.ttf */,
+				452073328E2133D41F274869 /* Poppins-Bold.ttf */,
+				462B39698838E6BA2E868D2E /* Cairo-Bold.ttf */,
+				CC07CD2471DD673910A01545 /* Poppins-Bold.ttf */,
+				F451C7F5F90ADEE784FEA00B /* Cairo-Bold.ttf */,
+				C01BD2AFEA1A6C4DF88EE870 /* Poppins-Regular.ttf */,
+				E3141A4D0D8C50367E6EA416 /* Cairo-Bold.ttf */,
+				E1955CBA30DCCD8FAD752FDC /* Poppins-Regular.ttf */,
+				5A0EAA1C1DC3943F0812D7A9 /* Cairo-Regular.ttf */,
+				2CDA38CB8C4FED80C0011F6D /* Cairo-Bold.ttf */,
+				9E721A88735D28502CCC18F7 /* Poppins-Bold.ttf */,
+				0F8AF27BE6215AB16E12C282 /* Cairo-Bold.ttf */,
+				195E78A335E63573C340F2E0 /* Poppins-Regular.ttf */,
+				4AD607068CE2E11796B4A4B1 /* Poppins-Regular.ttf */,
+				CC81796319845A74CB048B51 /* Cairo-Regular.ttf */,
+				6922A27893B85343293EC0F8 /* Cairo-Bold.ttf */,
+				991E66120A08D665C795564D /* Cairo-Bold.ttf */,
+				21EE051C39C988BF38BE4868 /* Poppins-Bold.ttf */,
+				ABAD87D3990522DDC26E1738 /* Cairo-Bold.ttf */,
+				8326966EBF46872CBEE87AD8 /* Cairo-Bold.ttf */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		B8949D9A26644D6C00E7472E = {
@@ -528,6 +524,7 @@
 				B8949DA426644D6C00E7472E /* Products */,
 				E47B7C876DD716B1F2816A27 /* Pods */,
 				A960853B81713CD9EFC40157 /* Frameworks */,
+				B87654B12666F4A300E19EA7 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -831,7 +828,6 @@
 			isa = PBXGroup;
 			children = (
 				B85307A526659D43008023C3 /* Authentication */,
-				B8949E9D26644DE100E7472E /* Coordinators */,
 				B8949EA226644DE100E7472E /* Secrets */,
 				B8949EA426644DE100E7472E /* Externals */,
 				B8949EC426644DE100E7472E /* Business */,
@@ -842,17 +838,6 @@
 				B8949F0826644DE100E7472E /* Localization */,
 			);
 			path = "Reusable Business Components";
-			sourceTree = "<group>";
-		};
-		B8949E9D26644DE100E7472E /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				B8949E9E26644DE100E7472E /* AppCoordinator.swift */,
-				B8949E9F26644DE100E7472E /* OTPCoordinator.swift */,
-				B8949EA026644DE100E7472E /* ProfileCoordinator.swift */,
-				B8949EA126644DE100E7472E /* MainCoordinator.swift */,
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		B8949EA226644DE100E7472E /* Secrets */ = {
@@ -1137,10 +1122,7 @@
 			isa = PBXGroup;
 			children = (
 				B8949F0326644DE100E7472E /* NoContent.swift */,
-				B8949F0426644DE100E7472E /* TransferRequest.swift */,
 				B8949F0526644DE100E7472E /* User.swift */,
-				B8949F0626644DE100E7472E /* Transaction.swift */,
-				B8949F0726644DE100E7472E /* Wallet.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -1289,58 +1271,11 @@
 				B8949DB326644D7000E7472E /* LaunchScreen.storyboard in Resources */,
 				B8949DB026644D7000E7472E /* Preview Assets.xcassets in Resources */,
 				B8949F5726644DE200E7472E /* Localizables.strings in Resources */,
-				C4EDFC8ADCCAD58D243CFABD /* BuildFile in Resources */,
-				1E07971AFA202C5AD31BF877 /* BuildFile in Resources */,
-				668841CC05846AE4045815D8 /* BuildFile in Resources */,
-				007E7B03B96380E029AB1BF5 /* BuildFile in Resources */,
-				7731E44ADA7B492646C92B95 /* BuildFile in Resources */,
-				DB099D0A10A17BF4F3C845A3 /* BuildFile in Resources */,
-				AFAA76594B9DE926C80FF922 /* BuildFile in Resources */,
-				1959A016A6F0B210D6EBEF4D /* BuildFile in Resources */,
-				EFC50A50F622D9BC1265F414 /* BuildFile in Resources */,
-				D09111B455BF8F08E388C6CA /* BuildFile in Resources */,
-				787A885DC47E597F3B032EC0 /* BuildFile in Resources */,
-				689FE3254ED85AAC476A4DE5 /* BuildFile in Resources */,
-				48FF3AD8A6B48D2C34F36337 /* BuildFile in Resources */,
-				4C89B6331B0148F3AC3460EE /* BuildFile in Resources */,
-				5CE75518E7AFBDF98F271F85 /* BuildFile in Resources */,
-				BB2E4FEFABCEFA17DF56FAC0 /* BuildFile in Resources */,
-				07E753C22D7C526587F38D30 /* BuildFile in Resources */,
-				F8DFA15EF7FEBB7461DFD8F2 /* BuildFile in Resources */,
-				6A0B2C66820D54C5D4F7EA25 /* BuildFile in Resources */,
-				C36E68875717BEFA7EEFEA8D /* BuildFile in Resources */,
-				094B609238F68E7F9E2D2A29 /* BuildFile in Resources */,
-				528EEE5208C36593DEBA26E3 /* BuildFile in Resources */,
-				43AD867E3198022B350D491E /* BuildFile in Resources */,
-				30816E8734E5C4FB46B4E828 /* BuildFile in Resources */,
-				3CF35E8BD639C9A9056F1ED9 /* BuildFile in Resources */,
-				5E84F222C61A00E556D4ADB1 /* BuildFile in Resources */,
-				486B3D739583A4A2DD3F5281 /* BuildFile in Resources */,
-				99FE9799D0764649DF81D0D9 /* BuildFile in Resources */,
-				F381F0A413FA0031E2320B8B /* BuildFile in Resources */,
-				0D0ECF0ECDA2D46DF2131E04 /* BuildFile in Resources */,
-				1F053ACADB785C7DF93F8462 /* BuildFile in Resources */,
-				9FB8989F413A97AF721DF817 /* BuildFile in Resources */,
-				8F18C24E5462CFD6ECC25720 /* BuildFile in Resources */,
-				CBD5D3C7ECD9A4EE7D71C483 /* BuildFile in Resources */,
-				AD0F7B3776557623DA6278A4 /* BuildFile in Resources */,
-				1D79CB418ED490B7CE900F49 /* BuildFile in Resources */,
-				A79B81C0D6A096BD72E57AF1 /* BuildFile in Resources */,
-				C6A6D3E46544352762B01186 /* Poppins-Regular.ttf in Resources */,
-				764DCCABA3109172C4EA0125 /* Poppins-Bold.ttf in Resources */,
-				6508E34DB5AD744B60F9A301 /* Cairo-Regular.ttf in Resources */,
-				BE49E1B67ABA3B8E49758767 /* Cairo-Bold.ttf in Resources */,
-				0F6BA241D2A83612F6A03A10 /* BuildFile in Resources */,
-				506D507D471DAC8655E9C9D7 /* Poppins-Regular.ttf in Resources */,
-				3801AE714A59F253EE91F56D /* Poppins-Bold.ttf in Resources */,
-				BD237F2778E0913952D47DC9 /* Cairo-Regular.ttf in Resources */,
-				04B0D8F8EC54F6BF29A4EFC9 /* Cairo-Bold.ttf in Resources */,
-				C4010FBA3DFA5FBAF71079D9 /* BuildFile in Resources */,
-				B2198EFF5578E246B81921BD /* Poppins-Regular.ttf in Resources */,
-				576EE613B89AB588D92E5DD0 /* Poppins-Bold.ttf in Resources */,
-				A51BB7148109C627F090B256 /* Cairo-Regular.ttf in Resources */,
-				EB244DE2EB0BE4BCBFFEC2D9 /* Cairo-Bold.ttf in Resources */,
-				1EB4333686CEFDCE31B1B1FD /* fonts.json in Resources */,
+				DCBC8D02900520922BB7B78E /* Poppins-Regular.ttf in Resources */,
+				769BCAFBEA132DB5418D540E /* Poppins-Bold.ttf in Resources */,
+				CF4A0E993FDB89DD39CF5FF3 /* Cairo-Regular.ttf in Resources */,
+				37B5A811D552D90F32D5847E /* Cairo-Bold.ttf in Resources */,
+				867D1A9355FC2B6B24529A2C /* fonts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1470,7 +1405,6 @@
 				B8949F1E26644DE100E7472E /* TransactionsHistoryTask.swift in Sources */,
 				B8949E9226644DBC00E7472E /* ScrollView.swift in Sources */,
 				B8949F1126644DE100E7472E /* Secret.swift in Sources */,
-				B8949F5326644DE200E7472E /* TransferRequest.swift in Sources */,
 				B8949E7526644DBC00E7472E /* StackViewComponent.swift in Sources */,
 				B8949F4B26644DE100E7472E /* BaseViewController.swift in Sources */,
 				B8949E8F26644DBC00E7472E /* PickerView.swift in Sources */,
@@ -1478,7 +1412,6 @@
 				B8949F1F26644DE100E7472E /* UpdateTransferTask.swift in Sources */,
 				B8949E7E26644DBC00E7472E /* PagingCollectionView.swift in Sources */,
 				B8949E9526644DBC00E7472E /* NavigationLeadingTextView.swift in Sources */,
-				B8949F1026644DE100E7472E /* MainCoordinator.swift in Sources */,
 				B8949E4526644DBC00E7472E /* AppDelegate.swift in Sources */,
 				B8949E5A26644DBC00E7472E /* UIView+Extensions.swift in Sources */,
 				B85307A826659EB6008023C3 /* Colors.swift in Sources */,
@@ -1500,11 +1433,9 @@
 				B8949F2F26644DE100E7472E /* UserSettingsService.swift in Sources */,
 				B83A70092664B01300F76930 /* R.generated.swift in Sources */,
 				B8949E9726644DBC00E7472E /* PhoneNumberTextField.swift in Sources */,
-				B8949F0F26644DE100E7472E /* ProfileCoordinator.swift in Sources */,
 				B8949F3C26644DE100E7472E /* MoneyTransformer.swift in Sources */,
 				B8949E9826644DBC00E7472E /* PullToRefreshPlugin.swift in Sources */,
 				B8949F3A26644DE100E7472E /* Dynamic.swift in Sources */,
-				B8949F5626644DE200E7472E /* Wallet.swift in Sources */,
 				B8949F1D26644DE100E7472E /* RegisterTask.swift in Sources */,
 				B8949E5026644DBC00E7472E /* NavigationBar+Utils.swift in Sources */,
 				B8949E5E26644DBC00E7472E /* NibIdentifiable.swift in Sources */,
@@ -1554,7 +1485,6 @@
 				B8949E4D26644DBC00E7472E /* CorePlugin.swift in Sources */,
 				B83A70112664B75A00F76930 /* Theme.swift in Sources */,
 				B8949F3626644DE100E7472E /* PhoneAuthService.swift in Sources */,
-				B8949F5526644DE200E7472E /* Transaction.swift in Sources */,
 				B8949E9326644DBC00E7472E /* LoadingButton.swift in Sources */,
 				B8949F4526644DE100E7472E /* UIDevice.swift in Sources */,
 				B8949F2626644DE100E7472E /* AuthEndpoint.swift in Sources */,
@@ -1564,7 +1494,6 @@
 				B8949E5626644DBC00E7472E /* UILayoutPriority+Extensions.swift in Sources */,
 				B8949F3D26644DE100E7472E /* TimeAgo.swift in Sources */,
 				B8949E4C26644DBC00E7472E /* AppCenterPlugin.swift in Sources */,
-				B8949F0E26644DE100E7472E /* OTPCoordinator.swift in Sources */,
 				B8949E4726644DBC00E7472E /* UILocalization.swift in Sources */,
 				B8949E4626644DBC00E7472E /* TextStyles.swift in Sources */,
 				B8949F4826644DE100E7472E /* ListableViewController.swift in Sources */,
@@ -1578,7 +1507,6 @@
 				B8949E7726644DBC00E7472E /* SpacingComponent.swift in Sources */,
 				B8949E7926644DBC00E7472E /* EmptyStateComponent.swift in Sources */,
 				B8949E9926644DBC00E7472E /* Plugin.swift in Sources */,
-				B8949F0D26644DE100E7472E /* AppCoordinator.swift in Sources */,
 				B8949F1A26644DE100E7472E /* ExternalsProtocols.swift in Sources */,
 				B8949F3326644DE100E7472E /* CacheFetcher.swift in Sources */,
 				B8949E8C26644DBC00E7472E /* Label.swift in Sources */,

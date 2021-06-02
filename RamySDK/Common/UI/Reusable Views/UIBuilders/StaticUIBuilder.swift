@@ -30,7 +30,7 @@ public enum StaticSectionUIDataType {
   case date(title: String, type: UIDatePicker.Mode, onChoosingDate: Callback<Date>)
   case phoneNumber(onType: Callback<String>)
   case field(title: String, value: String, onType: Callback<String>)
-  case text(String, UIFont)
+  case text(String, Font)
   case button(Button.TypeOfButton, onTap: VoidCallback)
   case picker(PickerUIDataModelProtocol)
   case stepper(title: String, startingValue: Double, onValueChanging: Callback<Double>)
@@ -89,7 +89,7 @@ final class StaticUIBuilder: UIBuilder {
     
     return UIStackView(
       arrangedSubviews: [
-        Label(font: Font.title2, color: .black).then { $0.text(model.header) },
+        Label(font: FontStyles.title2, color: .black).then { $0.text(model.header) },
         containerView
       ],
       axis: .vertical,
@@ -118,7 +118,7 @@ final class StaticUIBuilder: UIBuilder {
     case let .date(title, type, onChoosingDate):
       return UIStackView(
         arrangedSubviews: [
-          Label(font: Font.footnote, color: .gray).then { $0.text(title) },
+          Label(font: FontStyles.footnote, color: .gray).then { $0.text(title) },
           UIDatePicker().then { picker in
             if #available(iOS 14, *) {
               picker.preferredDatePickerStyle = .inline
@@ -139,7 +139,7 @@ final class StaticUIBuilder: UIBuilder {
     case let .field(title, value, onType):
       return UIStackView(
         arrangedSubviews: [
-          Label(font: Font.footnote, color: .gray).then { $0.text(title) },
+          Label(font: FontStyles.footnote, color: .gray).then { $0.text(title) },
           BasicTextField().then {
             $0.text = value
             $0.onInput = { text in onType(text ?? .empty) }
@@ -175,13 +175,13 @@ final class StaticUIBuilder: UIBuilder {
         }
       }
       
-      let currencyLabel = Label(font: TextStyles.caption1, color: R.color.primaryTextColor()!).then {
+      let currencyLabel = Label(font: FontStyles.caption1, color: R.color.primaryTextColor()!).then {
         $0.setContentHuggingPriorityCustom(.horizontal(.required))
         $0.setContentResistancePriorityCustom(.horizontal(.lessThanStandard))
         $0.text = UserSettingsService.shared.currency.value
       }
       
-      let titleLabel = Label(font: Font.footnote, color: .gray).then {
+      let titleLabel = Label(font: FontStyles.footnote, color: .gray).then {
         $0.text(title)
         $0.setContentHuggingPriorityCustom(.horizontal(.must))
         $0.setContentResistancePriorityCustom(.horizontal(.must))
@@ -207,7 +207,7 @@ final class StaticUIBuilder: UIBuilder {
     case let .switch(title, isOn, contents, onSwitching):
       let mainHStack = UIStackView(
         arrangedSubviews: [
-          Label(font: Font.footnote, color: .gray).then {
+          Label(font: FontStyles.footnote, color: .gray).then {
             $0.text(title)
             $0.setContentResistancePriorityCustom(.both(.must))
             $0.setContentHuggingPriorityCustom(.both(.must))
@@ -229,10 +229,6 @@ final class StaticUIBuilder: UIBuilder {
         return UIStackView(arrangedSubviews: [mainHStack] + contents.map { generateView(from: $0) }, axis: .vertical, spacing: Spacing.p1)
       } else {
         return mainHStack
-      }
-    case let .transaction(model):
-      return ROIHistoryView().then {
-        $0.configure(with: model)
       }
     }
   }

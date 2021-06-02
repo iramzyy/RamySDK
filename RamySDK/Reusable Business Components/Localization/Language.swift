@@ -8,18 +8,18 @@
 
 import Foundation
 
-enum Language: CaseIterable {
+public enum Language: CaseIterable {
   case arabic
   case english
   
-  var languageCode: String {
+  public var languageCode: String {
     switch self {
     case .arabic: return "ar"
     case .english: return "en"
     }
   }
   
-  init(_ language: String) {
+  public init(_ language: String) {
     switch language {
     case "ar": self = .arabic
     case "en": self = .english
@@ -27,7 +27,7 @@ enum Language: CaseIterable {
     }
   }
   
-  init(localeLanguageCode: String) {
+  public init(localeLanguageCode: String) {
     switch localeLanguageCode {
     case "ar": self = .arabic
     case "en": self = .english
@@ -35,7 +35,7 @@ enum Language: CaseIterable {
     }
   }
   
-  var isRTLLanguage: Bool {
+  public var isRTLLanguage: Bool {
     return self == .arabic
   }
 }

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RamySDK
 //
-//  Created by Ahmed Ramy on 11/15/20\.
+//  Created by Ahmed Ramy on 11/15/20.
 //  Copyright © 2020 Ahmed Ramy. All rights reserved.
 //
 
@@ -29,7 +29,7 @@ extension SceneDelegate {
     window = UIWindow(windowScene: scene)
     defer { window?.makeKeyAndVisible() }
     guard !isUnitTesting else { return }
-    set(rootViewTo: AppCoordinator.startFlow())
+//    set(rootViewTo: AppCoordinator.startFlow())
     
   }
 }
@@ -49,6 +49,6 @@ private extension SceneDelegate {
   
   func restart() {
     defer { window?.makeKeyAndVisible() }
-    window?.switchRootViewController(to: AppCoordinator.startFlow(), animated: true, duration: 0.6, options: .transitionCurlUp, {})
+//    window?.switchRootViewController(to: AppCoordinator.startFlow(), animated: true, duration: 0.6, options: .transitionCurlUp, {})
   }
 }
