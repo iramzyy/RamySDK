@@ -7,7 +7,6 @@
 //
 
 import Carbon
-import SnapKit
 import UIKit
 
 open class ListableViewController: BaseViewController {
@@ -115,7 +114,7 @@ private extension ListableViewController {
       $0.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: CGFloat.leastNonzeroMagnitude, height: CGFloat.leastNonzeroMagnitude))
       $0.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: CGFloat.leastNonzeroMagnitude, height: CGFloat.leastNonzeroMagnitude))
       $0.separatorStyle = .none
-      $0.backgroundColor = R.color.monochromaticBackground()!
+      $0.backgroundColor = .monochromatic.background
       $0.contentInset = .zero
       $0.estimatedRowHeight = 250
     }

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37B5A811D552D90F32D5847E /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */; };
+		48CED0CB5628D5FF560ACAF5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E73A74B517390F0F55524FC /* Poppins-Bold.ttf */; };
+		4C98A125D957552D439E7C0F /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B86BA2D71E747351719C81 /* fonts.json */; };
 		514A85594AC4600EFC4B941D /* libPods-RamySDKUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */; };
 		69063EDE8914CDF31678A0BC /* libPods-RamySDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9995B42A458642A11EAB878 /* libPods-RamySDKTests.a */; };
-		769BCAFBEA132DB5418D540E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */; };
-		867D1A9355FC2B6B24529A2C /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82406F86A6685A73F9D1139D /* fonts.json */; };
+		6BEB9E8F5BE5B6539240B0C7 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 211822ECA96AD1AF3256D42C /* Cairo-Regular.ttf */; };
+		6D3852BF129149628A788A82 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEC7F4690BEB042A643933DB /* Cairo-Bold.ttf */; };
 		8E70EAB5DBB01485CFCA3A64 /* Pods_RamySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC69C9F2756C75218DEAE6F /* Pods_RamySDK.framework */; };
 		B83A700B2664B03400F76930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83A700A2664B03400F76930 /* Assets.xcassets */; };
 		B83A700D2664B10300F76930 /* RatingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A700C2664B10300F76930 /* RatingsFactory.swift */; };
@@ -164,8 +165,7 @@
 		B8949F5726644DE200E7472E /* Localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8949F0926644DE100E7472E /* Localizables.strings */; };
 		B8949F5826644DE200E7472E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F0C26644DE100E7472E /* Language.swift */; };
 		B8949F5B26644DEC00E7472E /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8949F5A26644DEC00E7472E /* PlaygroundViewController.swift */; };
-		CF4A0E993FDB89DD39CF5FF3 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */; };
-		DCBC8D02900520922BB7B78E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */; };
+		FD6CC3F92BBD69C37EBAAC24 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12637F5A413B36530692D78D /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,14 +188,15 @@
 /* Begin PBXFileReference section */
 		04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamySDKUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8AF27BE6215AB16E12C282 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
-		16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		12637F5A413B36530692D78D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		195E78A335E63573C340F2E0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1A1012D0B9D9825B95534750 /* Pods-RamySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDK.debug.xcconfig"; path = "Target Support Files/Pods-RamySDK/Pods-RamySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		211822ECA96AD1AF3256D42C /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		21EE051C39C988BF38BE4868 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		2C41657EBEAEBDE81865549B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		2CDA38CB8C4FED80C0011F6D /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		2FC09232F527E1B6FF0AA439 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		31B86BA2D71E747351719C81 /* fonts.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
 		452073328E2133D41F274869 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		462B39698838E6BA2E868D2E /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		4AD607068CE2E11796B4A4B1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -203,17 +204,16 @@
 		541F79D32F9B1E9B9AAAE57B /* Pods-RamySDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKTests.debug.xcconfig"; path = "Target Support Files/Pods-RamySDKTests/Pods-RamySDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A0EAA1C1DC3943F0812D7A9 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		5E0DC5FEA461D4E82426EE9E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5E73A74B517390F0F55524FC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		62349CB71F61DE802B9DADF6 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		6922A27893B85343293EC0F8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		6CB3D0B439C90543A0AE3A46 /* Pods-RamySDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-RamySDKUITests/Pods-RamySDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F2EEECF76F1EBEA7D3188AF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		7FC69C9F2756C75218DEAE6F /* Pods_RamySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8181D763A265BABF94CBB562 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		82406F86A6685A73F9D1139D /* fonts.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
 		8264196A63ED457CD142BC6C /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		8326966EBF46872CBEE87AD8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		85D10FA28F84490C10A378FB /* Pods-RamySDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDKUITests.release.xcconfig"; path = "Target Support Files/Pods-RamySDKUITests/Pods-RamySDKUITests.release.xcconfig"; sourceTree = "<group>"; };
-		958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		991E66120A08D665C795564D /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		9E721A88735D28502CCC18F7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
@@ -384,6 +384,7 @@
 		E1955CBA30DCCD8FAD752FDC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		E25021FD1CDED9F2F9281E35 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "Cairo/Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		E3141A4D0D8C50367E6EA416 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		EEC7F4690BEB042A643933DB /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		F10B8AF7BA84EC8EF7F6A5BD /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		F451C7F5F90ADEE784FEA00B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		FF1E7022D19CA9739408D21B /* Pods-RamySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamySDK.release.xcconfig"; path = "Target Support Files/Pods-RamySDK/Pods-RamySDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -417,13 +418,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042365128569D689C713C17B /* Cairo */ = {
+		0C9466F2E7301738A6E82361 /* Cairo */ = {
 			isa = PBXGroup;
 			children = (
-				958DFDFF96C617DC55CD1F25 /* Cairo-Regular.ttf */,
-				A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */,
+				211822ECA96AD1AF3256D42C /* Cairo-Regular.ttf */,
+				EEC7F4690BEB042A643933DB /* Cairo-Bold.ttf */,
 			);
 			name = Cairo;
+			sourceTree = "<group>";
+		};
+		4DB6071F36626C56BA4E10E2 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				12637F5A413B36530692D78D /* Poppins-Regular.ttf */,
+				5E73A74B517390F0F55524FC /* Poppins-Bold.ttf */,
+			);
+			name = Poppins;
 			sourceTree = "<group>";
 		};
 		A960853B81713CD9EFC40157 /* Frameworks */ = {
@@ -434,15 +444,6 @@
 				04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AD84B978FE546698061406EA /* Poppins */ = {
-			isa = PBXGroup;
-			children = (
-				16F7DFF10B1417AD30FA9907 /* Poppins-Regular.ttf */,
-				3A8CA2F6BD3D1B3203798E17 /* Poppins-Bold.ttf */,
-			);
-			name = Poppins;
 			sourceTree = "<group>";
 		};
 		B83A700F2664B73400F76930 /* Pegasus Design System */ = {
@@ -472,8 +473,8 @@
 			children = (
 				B87654B02666CA8700E19EA7 /* Families */,
 				B87654AD2666508A00E19EA7 /* Fonts.swift */,
-				82406F86A6685A73F9D1139D /* fonts.json */,
 				B87654B426670D1700E19EA7 /* FontConfig.swift */,
+				31B86BA2D71E747351719C81 /* fonts.json */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -481,8 +482,8 @@
 		B87654B02666CA8700E19EA7 /* Families */ = {
 			isa = PBXGroup;
 			children = (
-				AD84B978FE546698061406EA /* Poppins */,
-				042365128569D689C713C17B /* Cairo */,
+				4DB6071F36626C56BA4E10E2 /* Poppins */,
+				0C9466F2E7301738A6E82361 /* Cairo */,
 			);
 			path = Families;
 			sourceTree = "<group>";
@@ -519,6 +520,7 @@
 				21EE051C39C988BF38BE4868 /* Poppins-Bold.ttf */,
 				ABAD87D3990522DDC26E1738 /* Cairo-Bold.ttf */,
 				8326966EBF46872CBEE87AD8 /* Cairo-Bold.ttf */,
+				A7139A70F15ABBDC5A6A3FE0 /* Cairo-Bold.ttf */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -1289,11 +1291,11 @@
 				B8949DB326644D7000E7472E /* LaunchScreen.storyboard in Resources */,
 				B8949DB026644D7000E7472E /* Preview Assets.xcassets in Resources */,
 				B8949F5726644DE200E7472E /* Localizables.strings in Resources */,
-				DCBC8D02900520922BB7B78E /* Poppins-Regular.ttf in Resources */,
-				769BCAFBEA132DB5418D540E /* Poppins-Bold.ttf in Resources */,
-				CF4A0E993FDB89DD39CF5FF3 /* Cairo-Regular.ttf in Resources */,
-				37B5A811D552D90F32D5847E /* Cairo-Bold.ttf in Resources */,
-				867D1A9355FC2B6B24529A2C /* fonts.json in Resources */,
+				FD6CC3F92BBD69C37EBAAC24 /* Poppins-Regular.ttf in Resources */,
+				48CED0CB5628D5FF560ACAF5 /* Poppins-Bold.ttf in Resources */,
+				6BEB9E8F5BE5B6539240B0C7 /* Cairo-Regular.ttf in Resources */,
+				6D3852BF129149628A788A82 /* Cairo-Bold.ttf in Resources */,
+				4C98A125D957552D439E7C0F /* fonts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

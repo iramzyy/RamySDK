@@ -12,7 +12,7 @@ public class NSAttributedStringBuilder {
   private var attributedString = NSMutableAttributedString()
   
   private func wholeString() -> NSRange {
-    .init(location: 0, length: attributedString.string.count)
+    .init(location: 0, length: attributedString.string.utf16.count)
   }
   
   @discardableResult
@@ -44,7 +44,7 @@ public class NSAttributedStringBuilder {
       $0.lineHeightMultiple = font.metrics.lineHeight
       $0.minimumLineHeight = font.metrics.lineHeight
       $0.maximumLineHeight = font.metrics.lineHeight
-      $0.lineSpacing = font.metrics.lineHeight
+      $0.lineSpacing = font.metrics.letterSpacing
     }
     attributedString.addAttribute(.paragraphStyle, value: style, range: range)
     return self
@@ -53,12 +53,12 @@ public class NSAttributedStringBuilder {
   @discardableResult
   public func add(font: Font) -> NSAttributedStringBuilder {
     let range = wholeString()
-    attributedString.addAttribute(.font, value: font, range: range)
+    attributedString.addAttribute(.font, value: font.accessibleFont, range: range)
     let style = NSMutableParagraphStyle().then {
-      $0.lineHeightMultiple = font.metrics.lineHeight
-      $0.minimumLineHeight = font.metrics.lineHeight
-      $0.maximumLineHeight = font.metrics.lineHeight
-      $0.lineSpacing = font.metrics.lineHeight
+      $0.lineHeightMultiple = font.accessibleLineHeight
+      $0.minimumLineHeight = font.accessibleLineHeight
+      $0.maximumLineHeight = font.accessibleLineHeight
+      $0.lineSpacing = font.accessibleLetterSpacing
     }
     attributedString.addAttribute(.paragraphStyle, value: style, range: range)
     return self

@@ -12,7 +12,7 @@ public protocol StaticUIDataModelProtocol {
 }
 
 public protocol StaticSectionUIDataModelProtocol {
-  var header: String { get }
+  var header: UIManager.LabelViewModel { get }
   var elements: [StaticSectionElementUIDataModelProtocol] { get }
   var noBackground: Bool { get set }
 }
@@ -30,7 +30,7 @@ public enum StaticSectionUIDataType {
   case date(title: String, type: UIDatePicker.Mode, onChoosingDate: Callback<Date>)
   case phoneNumber(onType: Callback<String>)
   case field(title: String, value: String, onType: Callback<String>)
-  case text(String, Font)
+  case text(UIManager.LabelViewModel)
   case button(Button.TypeOfButton, onTap: VoidCallback)
   case picker(PickerUIDataModelProtocol)
   case stepper(title: String, startingValue: Double, onValueChanging: Callback<Double>)
@@ -43,7 +43,7 @@ public struct StaticUIDataModel: StaticUIDataModelProtocol {
 
 public struct StaticSectionUIDataModel: StaticSectionUIDataModelProtocol {
   public var elements: [StaticSectionElementUIDataModelProtocol]
-  public var header: String
+  public var header: UIManager.LabelViewModel
   public var noBackground: Bool = false
 }
 
@@ -69,8 +69,8 @@ final class StaticUIBuilder: UIBuilder {
   
   func buildSection(from model: StaticSectionUIDataModelProtocol) -> UIStackView {
     let containerView = UIView().then {
-      $0.backgroundColor = model.noBackground ? .clear : .white
-      $0.cornerRadius = 8
+      $0.backgroundColor = model.noBackground ? .clear : .monochromatic.background
+      $0.cornerRadius = Metrics.radius.getMetric(for: .section)
     }
     
     let containerContents = UIStackView(
@@ -89,18 +89,21 @@ final class StaticUIBuilder: UIBuilder {
     
     return UIStackView(
       arrangedSubviews: [
-        Label(font: FontStyles.title2, color: .black).then { $0.text(model.header) },
+        Label(viewModel: model.header),
         containerView
       ],
       axis: .vertical,
-      spacing: 8
+      spacing: Spacing.p1
     )
   }
   
   func generateView(from type: StaticSectionUIDataType) -> UIView {
     switch type {
-    case let .text(text, font):
-      return Label(font: font, color: .gray).then { $0.text(text) }
+    case let .text(viewModel):
+      return Label(viewModel: viewModel).then {
+        $0.setContentResistancePriorityCustom(.both(.must))
+        $0.setContentHuggingPriorityCustom(.vertical(.must))
+      }
     case let .phoneNumber(onType):
       return PhoneTextFieldView().then { $0.textField.onInput = { text in onType(text ?? .empty) } }
     case let .multipleOptions(title, isExpanded, options, onTap):

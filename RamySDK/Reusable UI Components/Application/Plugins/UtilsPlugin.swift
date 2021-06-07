@@ -8,6 +8,7 @@
 
 import IQKeyboardManagerSwift
 import SwifterSwift
+import SnapKit
 
 struct UtilsPlugin { }
 

@@ -2,7 +2,7 @@
  platform :ios, '13.2'
 
 def utilities_pods
-  # Pods for Belba2i
+  # Pods for RamySDK
   pod 'SwifterSwift', '~> 5.2.0'
   pod 'Kingfisher' # Image Downloading and caching
   pod 'RxSwift' # Using Reactive Programming for shorter code

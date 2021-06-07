@@ -8,7 +8,6 @@
 
 import UIKit.UIFont
 import UIKit.UIImage
-import SnapKit
 
 
 public protocol TextFieldComponentUI where Self: UIView {

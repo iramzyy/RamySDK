@@ -57,7 +57,7 @@ open class BaseViewController: UIViewController, LoadableViewController {
   }
 
   open func viewWillAppearOnce(_ animated: Bool) {
-    self.view.backgroundColor = R.color.primaryDefault()!
+    self.view.backgroundColor = .monochromatic.offwhite
   }
   
   open override func viewWillDisappear(_ animated: Bool) {

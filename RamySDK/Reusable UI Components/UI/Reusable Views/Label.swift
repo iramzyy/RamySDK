@@ -37,6 +37,14 @@ open class Label: UILabel {
   
   // MARK: - Initializers
 
+  public init(viewModel: UIManager.LabelViewModel) {
+    self.customTextColor = viewModel.color
+    self.customFont = viewModel.font
+    super.init(frame: .zero)
+    initialize()
+    hidableText(viewModel.text.emptyIfNil)
+  }
+  
   public init(font: Font, color: UIColor) {
     self.customTextColor = color
     self.customFont = font
@@ -86,6 +94,7 @@ private extension Label {
     lineBreakMode = .byWordWrapping
     textAlignment = UILocalization.shared.textAlignment
     backgroundColor = .clear
+    adjustsFontForContentSizeCategory = true
   }
 }
 

@@ -15,6 +15,8 @@ public enum Metrics {
     switch (self, viewType) {
     case (.radius, .ratingForm):
       return 14
+    case (.radius, .section):
+      return 8
     }
   }
 }
@@ -22,5 +24,6 @@ public enum Metrics {
 public extension Metrics {
   enum ViewType {
     case ratingForm
+    case section
   }
 }

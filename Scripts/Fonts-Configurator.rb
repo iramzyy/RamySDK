@@ -34,7 +34,7 @@ def get_group(groupName, groups)
 end
 
 def add_font_group_files(project)
-  fonts_json = JSON.parse(File.read('../Fonts-Config.json'), object_class: OpenStruct)
+  fonts_json = JSON.parse(File.read('./Fonts-Config.json'), object_class: OpenStruct)
   font_group = get_group("Fonts", project.groups)
   font_families_group = get_group("Families", project.groups)
 
@@ -83,7 +83,6 @@ def add_font_group_files(project)
 
 
     Dir.each_child("#{fonts_json.source}/#{font.family}") { |child|
-      pp child
       if supported_weights.any? { |weight| child.end_with?("-#{weight}.ttf") }
         pp "Adding #{child} to #{font_family}"
         if child.end_with? "ttf"

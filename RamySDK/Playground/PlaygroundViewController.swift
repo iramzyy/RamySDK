@@ -47,6 +47,20 @@ import UIKit
 //)
 //let builder = LocalVerificationUIBuilder(uiModel: uiModel)
 
+//RatingsFactory.showRatingView(viewModel: .init(steps: [
+//  .init(
+//    title: "How big is your love to Salma?",
+//    description: "❤️",
+//    content: [
+//      .init(title: "🌊", description: "As big as the ocean!"),
+//      .init(title: "🌚", description: "As big as the moon!"),
+//      .init(title: "🌍", description: "As big as the world!"),
+//      .init(title: "🌞", description: "As big as the Sun!"),
+//      .init(title: "🌌", description: "Aaaaad keda aho (Galaxies) 😌❤️")
+//    ]
+//  )
+//]))
+
 final class PlaygroundViewController: ListableViewController, NavigationComponentProtocol {
   public let scrollView = ScrollView().then {
     $0.clipsToBounds = true
@@ -54,18 +68,40 @@ final class PlaygroundViewController: ListableViewController, NavigationComponen
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    RatingsFactory.showRatingView(viewModel: .init(steps: [
-      .init(
-        title: "How big is your love to Salma?",
-        description: "❤️",
-        content: [
-          .init(title: "🌊", description: "As big as the ocean!"),
-          .init(title: "🌚", description: "As big as the moon!"),
-          .init(title: "🌍", description: "As big as the world!"),
-          .init(title: "🌞", description: "As big as the Sun!"),
-          .init(title: "🌌", description: "Aaaaad keda aho (Galaxies) 😌❤️")
-        ]
-      )
-    ]))
+    let uiModel = StaticUIDataModel(
+      sections: [
+        StaticSectionUIDataModel(
+          elements: [
+            StaticSectionElementUIDataModel(
+              type: .text(
+                .init(
+                  .body,
+                  "How's it going?",
+                  .title
+                )
+              )
+            )
+          ],
+          header: .init(
+            .header,
+            "Hi 🙌",
+            .title
+          )
+        )
+      ]
+    )
+
+    let builder = StaticUIBuilder(uiModel: uiModel)
+    let renderedView = builder.build()
+    
+    self.view.addSubview(self.scrollView)
+    
+    self.scrollView.snp.remakeConstraints {
+      $0.leading.trailing.equalToSuperview()
+      $0.top.equalTo(self.view.safeArea.top)
+      $0.bottom.equalToSuperview()
+    }
+    
+    self.scrollView.scrollableContentView = renderedView
   }
 }

@@ -52,3 +52,14 @@ public final class ThemeManager {
     FontManager.shared = selectedTheme.setupFont()
   }
 }
+
+public extension UIColor {
+  static var primary: BrandColor { ThemeManager.shared.selectedTheme.primary }
+  static var secondary: BrandColor { ThemeManager.shared.selectedTheme.secondary }
+  static var monochromatic: Monochromatic { ThemeManager.shared.selectedTheme.monochromatic }
+  static var transparency: Transparency { ThemeManager.shared.selectedTheme.transparency }
+  static var success: BrandColor { ThemeManager.shared.selectedTheme.success }
+  static var warning: BrandColor { ThemeManager.shared.selectedTheme.warning }
+  static var danger: BrandColor { ThemeManager.shared.selectedTheme.danger }
+  static var info: BrandColor { ThemeManager.shared.selectedTheme.info }
+}

@@ -29,6 +29,7 @@ public protocol BrandColor {
 
 public protocol Monochromatic {
   var offblack: UIColor { get }
+  var ash: UIColor { get }
   var body: UIColor { get }
   var label: UIColor { get }
   var placeholder: UIColor { get }
@@ -109,6 +110,7 @@ public struct TransparencyPalette: Transparency {
 
 public struct MonochromaticPalette: Monochromatic {
   public var offblack: UIColor = .init(named: "Monochromatic.offblack")!
+  public var ash: UIColor = .init(named: "Monochromatic.offblack")!
   public var body: UIColor = .init(named: "Monochromatic.body")!
   public var label: UIColor = .init(named: "Monochromatic.label")!
   public var placeholder: UIColor = .init(named: "Monochromatic.placeholder")!
@@ -120,6 +122,59 @@ public struct MonochromaticPalette: Monochromatic {
 
 public enum UIManager { }
 
+// MARK: - Button
+public extension UIManager {
+  struct LabelViewModel {
+    let font: Font
+    let text: String?
+    let color: UIColor
+    
+    // Custom Coloring
+    public init(
+      _ font: Font,
+      _ text: String,
+      color: UIColor
+    ) {
+      self.font = font
+      self.text = text
+      self.color = color
+    }
+    
+    // Design System Conforming
+    public init(
+      _ font: Font,
+      _ text: String,
+      _ type: LabelType
+    ) {
+      self.font = font
+      self.text = text
+      self.color = type.color
+    }
+  }
+}
+
+public extension UIManager.LabelViewModel {
+  enum LabelType {
+    case title
+    case body
+    case link
+    case caption
+    
+    var color: UIColor {
+      switch self {
+      case .title:
+        return .monochromatic.offblack
+      case .body:
+        return .monochromatic.body
+      case .link,
+           .caption:
+        return .monochromatic.label
+      }
+    }
+  }
+}
+
+// MARK: - Button
 public extension UIManager {
   
   struct ButtonViewModel {

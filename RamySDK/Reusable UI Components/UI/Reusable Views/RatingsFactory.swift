@@ -13,6 +13,7 @@ public final class RatingsFactory {
   private static func getDefaultRatingAttributes() -> EKAttributes {
     var attribute = EKAttributes()
     attribute.border = .none
+    attribute.hapticFeedbackType = .success
     attribute.entryBackground = .color(color: .init(ThemeManager.shared.selectedTheme.transparency.light(by: 95)))
     attribute.screenBackground = .color(color: .init(ThemeManager.shared.selectedTheme.transparency.dark(by: 65)))
     attribute.entryInteraction = .absorbTouches
@@ -33,20 +34,24 @@ public final class RatingsFactory {
     let unselectedImage = EKProperty.ImageContent(
       image: R.image.star()!,
       displayMode: .inferred,
-      tint: EKColor.init(R.color.monochromaticOffblack()!)
+      tint: EKColor.init(.monochromatic.offblack)
     )
     let selectedImage = EKProperty.ImageContent(
       image: R.image.filledStar()!,
       displayMode: .inferred,
-      tint: EKColor.init(R.color.monochromaticOffblack()!)
+      tint: EKColor.init(.monochromatic.offblack)
     )
     
     let steps = viewModel.steps.map { step -> (title: EKProperty.LabelContent, description: EKProperty.LabelContent, items: [EKProperty.EKRatingItemContent]) in
       let title = EKProperty.LabelContent(
         text: step.title,
         style: .init(
-          font: FontManager.shared.getSuitableFont(category: .link, scale: .medium, weight: .bold).font,
-          color: EKColor.init(R.color.monochromaticOffblack()!),
+          font: FontManager.shared.getSuitableFont(
+            category: .link,
+            scale: .medium,
+            weight: .bold
+          ).font,
+          color: EKColor.init(.monochromatic.offblack),
           alignment: .center,
           displayMode: .inferred
         )
@@ -55,8 +60,12 @@ public final class RatingsFactory {
       let description = EKProperty.LabelContent(
         text: step.description,
         style: .init(
-          font: FontManager.shared.getSuitableFont(category: .link, scale: .xsmall, weight: .bold).font,
-          color: EKColor.init(R.color.monochromaticBody()!),
+          font: FontManager.shared.getSuitableFont(
+            category: .link,
+            scale: .xsmall,
+            weight: .regular
+          ).font,
+          color: EKColor.init(.monochromatic.body),
           alignment: .center,
           displayMode: .inferred
         )
@@ -67,7 +76,7 @@ public final class RatingsFactory {
           text: item.title,
           style: .init(
             font: FontManager.shared.getSuitableFont(category: .display, scale: .huge, weight: .bold).font,
-            color: .init(R.color.monochromaticOffblack()!),
+            color: .init(.monochromatic.offblack),
             alignment: .center,
             displayMode: .inferred
           )
@@ -76,8 +85,12 @@ public final class RatingsFactory {
         let itemDescription = EKProperty.LabelContent(
           text: item.description,
           style: .init(
-            font: FontManager.shared.getSuitableFont(category: .link, scale: .xsmall, weight: .bold).font,
-            color: EKColor.init(R.color.monochromaticBody()!),
+            font: FontManager.shared.getSuitableFont(
+              category: .link,
+              scale: .xsmall,
+              weight: .regular
+            ).font,
+            color: EKColor.init(.monochromatic.body),
             alignment: .center,
             displayMode: .inferred
           )
@@ -96,19 +109,19 @@ public final class RatingsFactory {
     var message: EKRatingMessage!
     let lightFont = FontManager.shared.getSuitableFont(
       category: .text,
-      scale: .large,
+      scale: .xsmall,
       weight: .regular
     ).font
     
     let mediumFont = FontManager.shared.getSuitableFont(
       category: .text,
-      scale: .large,
+      scale: .xsmall,
       weight: .bold
     ).font
     
     let closeButtonLabelStyle = EKProperty.LabelStyle(
       font: lightFont,
-      color: .init(R.color.primaryDefault()!),
+      color: .init(.primary.default),
       displayMode: .inferred
     )
     
@@ -120,7 +133,7 @@ public final class RatingsFactory {
     let closeButton = EKProperty.ButtonContent(
       label: closeButtonLabel,
       backgroundColor: .clear,
-      highlightedBackgroundColor: .init(R.color.monochromaticOffblack()!),
+      highlightedBackgroundColor: .init(.transparency.light(by: 65)),
       displayMode: .inferred) {
       SwiftEntryKit.dismiss {
         // Here you may perform a completion handler
@@ -129,7 +142,7 @@ public final class RatingsFactory {
     
     let okButtonLabelStyle = EKProperty.LabelStyle(
       font: mediumFont,
-      color: .init(R.color.primaryDefault()!),
+      color: .init(.primary.default),
       displayMode: .inferred
     )
     let okButtonLabel = EKProperty.LabelContent(
@@ -140,15 +153,15 @@ public final class RatingsFactory {
     let okButton = EKProperty.ButtonContent(
       label: okButtonLabel,
       backgroundColor: .clear,
-      highlightedBackgroundColor: EKColor(R.color.monochromaticOffblack()!),
+      highlightedBackgroundColor: EKColor(.transparency.light(by: 65)),
       displayMode: .inferred) {
       SwiftEntryKit.dismiss()
     }
     
     let buttonsBarContent = EKProperty.ButtonBarContent(
       with: closeButton, okButton,
-      separatorColor: .init(R.color.monochromaticLine()!),
-      horizontalDistributionThreshold: 1,
+      separatorColor: .init(.monochromatic.line),
+      horizontalDistributionThreshold: 2,
       displayMode: .inferred,
       expandAnimatedly: true
     )
