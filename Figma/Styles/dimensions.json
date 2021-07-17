@@ -1,0 +1,23 @@
+{
+    "dimensions": [
+    {
+        "cornerRadius": [
+            {
+                "type": "semi-radius",
+                "value_type": "constant",
+                "value": 16
+            },
+            {
+                "type": "pill",
+                "value_type": "half-width",
+                "value": 0
+            },
+            {
+                "type": "circle",
+                "value_type": "half-size",
+                "value": 0
+            }
+        ]
+    }
+    ]
+}

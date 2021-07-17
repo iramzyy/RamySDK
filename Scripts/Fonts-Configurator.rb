@@ -5,7 +5,7 @@ require 'Xcodeproj'
 require 'nokogiri'
 require 'nokogiri-plist'
 
-project = Xcodeproj::Project.open("../RamySDK.xcodeproj")
+$fonts_json = JSON.parse(File.read('./Fonts-Config.json'), object_class: OpenStruct)
 
 def open_struct_to_hash(object, hash = {})
   object.each_pair do |key, value|
@@ -34,12 +34,11 @@ def get_group(groupName, groups)
 end
 
 def add_font_group_files(project)
-  fonts_json = JSON.parse(File.read('./Fonts-Config.json'), object_class: OpenStruct)
   font_group = get_group("Fonts", project.groups)
   font_families_group = get_group("Families", project.groups)
 
   info_plist_file_ref = project.files.find { |file| file.display_name == "Info.plist"}.real_path
-  supported_weights = fonts_json.supported_weights
+  supported_weights = $fonts_json.supported_weights
   info_plist = Nokogiri::PList(open(info_plist_file_ref))
 
   pp "Removing all existing fonts in Families group"
@@ -68,7 +67,7 @@ def add_font_group_files(project)
     }
   }
 
-  fonts_json.fonts.each { |font|
+  $fonts_json.fonts.each { |font|
     font_family = font.family
     destination = "#{font_families_group.real_path}/#{font.family}"
 
@@ -82,11 +81,11 @@ def add_font_group_files(project)
     end
 
 
-    Dir.each_child("#{fonts_json.source}/#{font.family}") { |child|
-      if supported_weights.any? { |weight| child.end_with?("-#{weight}.ttf") }
+    Dir.each_child("#{$fonts_json.source}/#{font.family}") { |child|
+      if supported_weights.any? { |weight| child.end_with?("-#{weight}.ttf") || child.end_with?("-#{weight}.otf") }
         pp "Adding #{child} to #{font_family}"
         if child.end_with? "ttf"
-          FileUtils.cp "#{fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
+          FileUtils.cp "#{$fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
           file_ref = family_group.new_file("#{font_families_group.real_path}/#{font.family}/#{child}")
           pp "Adding #{child} to Resources"
           project.targets.first.add_resources([file_ref])
@@ -98,7 +97,7 @@ def add_font_group_files(project)
           end
         elsif child.end_with? "otf"
           pp "You should use tff because its better for Apple Env"
-          FileUtils.cp "#{fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
+          FileUtils.cp "#{$fonts_json.source}/#{font.family}/#{child}", "#{destination}/#{child}"
           file_ref = family_group.new_file("#{font_families_group.real_path}/#{font.family}/#{child}")
           pp "Adding #{child} to Resources"
           project.targets.first.add_resources([file_ref])
@@ -124,7 +123,7 @@ def add_font_group_files(project)
     end
   end
 
-  configuration_json = File.write("#{font_group.real_path}/fonts.json", JSON.pretty_generate({ :fonts => fonts_json.fonts.map { |e| open_struct_to_hash(e) }, :default_configurations => open_struct_to_hash(fonts_json.default_configurations) }))
+  configuration_json = File.write("#{font_group.real_path}/fonts.json", JSON.pretty_generate({ :fonts => $fonts_json.fonts.map { |e| open_struct_to_hash(e) }, :default_configurations => open_struct_to_hash($fonts_json.default_configurations) }))
   file_ref = font_group.new_file("#{font_group.real_path}/fonts.json")
   project.targets.first.add_resources([file_ref])
 
@@ -136,7 +135,7 @@ def add_font_group_files(project)
   }
 end
 
-
+project = Xcodeproj::Project.open($fonts_json.project_path)
 add_font_group_files(project)
 
 project.save()

@@ -8,11 +8,15 @@
 
 import UIKit.UIApplication
 
-struct ReportPlugin { }
+struct ReportPlugin {
+  var services: [RunnableService] = [
+    LogService.main
+  ]
+}
 
 extension ReportPlugin: ApplicationPlugin {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
-    // Add Reporting Tools here like Sentry, Bugsnag, Smartlook
+    services.forEach { $0.start() }
     return true
   }
 }

@@ -1,11 +1,11 @@
 //
 //  MoyaManager.swift
-//  camelan
+//  RamySDK
 //
 //  Created by Ahmed Ramy on 1/30/20.
-//  Copyright © 2020 Ahmed Ramy. All rights reserved.
-//  Copyright © 2020 Camelan . All rights reserved.
+//  Copyright © 2021 Ahmed Ramy. All rights reserved.
 //
+
 import Moya
 import RxSwift
 import Alamofire
@@ -19,27 +19,31 @@ fileprivate final class NetworkProvider<Target> where Target: Moya.TargetType {
        stubClosure: @escaping MoyaProvider<Target>.StubClosure = MoyaProvider.neverStub,
        plugins: [PluginType] = [VerbosePlugin()],
        trackInflights: Bool = false) {
-    
     self.provider = MoyaProvider(endpointClosure: endpointClosure,
                                  requestClosure: requestClosure,
                                  stubClosure: stubClosure,
-                                 session: Session.default,
+                                 session: Session(
+                                  session: PulseService.main.setup(sessionDelegate: Session.default.delegate),
+                                  delegate: Session.default.delegate,
+                                  rootQueue: Session.default.rootQueue
+                                 ),
                                  plugins: plugins,
                                  trackInflights: trackInflights)
   }
   
   func request(_ token: Target) -> Observable<Moya.Response> {
     return provider.rx.request(token).flatMap { (response) in
-      if response.statusCode == 401 {
-        return self.refreshSessionToken()
-          .do(onSuccess: { [weak self] token in
-            // Save token on expire here
-          }).flatMap { _ in
-            return self.request(token).asSingle()
-        }
-      } else {
-        return Single.just(response)
-      }
+//      if response.statusCode == 401 {
+//        return self.refreshSessionToken()
+//          .do(onSuccess: { [weak self] token in
+//            // Save token on expire here
+//          }).flatMap { _ in
+//            return self.request(token).asSingle()
+//        }
+//      } else {
+//        return Single.just(response)
+//      }
+      return Single.just(response)
     }.asObservable().retryExponentially()
   }
   

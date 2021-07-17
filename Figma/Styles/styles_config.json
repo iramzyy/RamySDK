@@ -1,0 +1,28 @@
+{
+    "colors": [
+        {
+            "type": "color",
+            "id": "",
+            "name": "",
+            "color": { 
+                "dark": "",
+                "light": ""
+            }
+        }
+    ],
+    "components": [
+        {
+            "buttons": [
+                {
+                    "type": "primary",
+                    "state": "default",
+                    "size": "huge",
+                    "radius": "semi-rounded",
+                    "border_color": "$ID",
+                    "text_color": "$ID",
+                    "icon_color": "$ID"
+                }
+            ]
+        }
+    ]
+}

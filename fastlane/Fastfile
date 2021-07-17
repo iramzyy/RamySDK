@@ -1,0 +1,108 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+require 'json'
+
+default_platform(:ios)
+
+configs = JSON.parse(File.read('./Config.json'), object_class: OpenStruct)
+
+
+platform :ios do
+  lane :metrics do
+    scan(scheme: configs.project.scheme, code_coverage: true, derived_data_path: "./DerivedData", output_directory: "./reports")
+    slather(cobertura_xml: true, jenkins: true, scheme: configs.project.scheme, build_directory: "./DerivedData", output_directory: "./reports", proj: "./#{configs.project.name}.xcodeproj")
+    lizard(source_folder: "#{configs.project.source_folder}", language: "swift", export_type: "xml", report_file: "reports/lizard-report.xml")
+    swiftlint(output_file: "./reports/swiftlint.txt", ignore_exit_status: true)
+    sonar
+  end
+
+  desc "Build a new alpha version"
+  lane :version_dev do |options|
+    tag_prefix = 'ios/dev*'
+    title = 'iOS Development'
+
+    # Git status has to be clean
+    ensure_git_status_clean
+    
+    # Check if there is any change since last version
+    is_releaseable = analyze_commits(match: tag_prefix)
+    
+    unless is_releaseable
+      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+      # Get release notes since last version for slack
+      notes = conventional_changelog(title: title, format: 'markdown')
+      # Create tag to recognize future "last version" (the current version)
+      add_git_tag(tag: "ios/dev/#{next_version}/#{build_number}")
+      push_git_tags
+    end
+  end
+
+  lane :version_release do |options|
+    tag_prefix = 'ios/release*'
+    title = 'iOS Release'
+
+    # Git status has to be clean
+    ensure_git_status_clean
+    
+    # Check if there is any change since last version
+    is_releaseable = analyze_commits(match: tag_prefix)
+    
+    unless is_releaseable
+      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+      # Get release notes since last version for slack
+      notes = conventional_changelog(title: title, format: 'markdown')
+      # Create tag to recognize future "last version" (the current version)
+      add_git_tag(tag: "ios/release/#{next_version}/#{build_number}")
+      push_git_tags
+    end
+  end
+
+  lane :version_staging do |options|
+    tag_prefix = 'ios/staging*'
+    title = 'iOS Staging'
+
+    # Git status has to be clean
+    ensure_git_status_clean
+    
+    # Check if there is any change since last version
+    is_releaseable = analyze_commits(match: tag_prefix)
+    
+    unless is_releaseable
+      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+      # Get release notes since last version for slack
+      notes = conventional_changelog(title: title, format: 'markdown')
+      # Create tag to recognize future "last version" (the current version)
+      add_git_tag(tag: "ios/staging/#{next_version}/#{build_number}")
+      push_git_tags
+    end
+  end
+
+  lane :sync_sentry do
+    if configs.sentry != nil
+      gym # building your app
+      sentry_upload_dsym(
+        auth_token: configs.sentry,
+        org_slug: 'nerdor',
+        project_slug: 'nerdor',
+      )
+    else
+      puts "Sentry was not set in the configs".red  
+    end
+  end
+end

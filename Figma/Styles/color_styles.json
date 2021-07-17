@@ -1,0 +1,4610 @@
+[
+    {
+      "id": "S:ab11e3fc43c5044e3c64c30553fb154f29f292d2,",
+      "name": "Grayscale / Off-white",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9882352948188782,
+            "g": 0.9882352948188782,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:33333ee2a6b4f418e994941291375c9f8d3f7c43,",
+      "name": "Grayscale/BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9686274528503418,
+            "g": 0.9686274528503418,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:50263b6b25aa0a7c594c935b84d290c2834047a4,",
+      "name": "Grayscale/Input",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c8bf31ec5176290172364eb11232b8d335a9e4a9,",
+      "name": "Grayscale/Line",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8588235378265381,
+            "b": 0.9137254953384399
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:455b3423c57233287bba9ceb7e95ded7b58ca103,",
+      "name": "Grayscale/Placehold",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6274510025978088,
+            "g": 0.6392157077789307,
+            "b": 0.7411764860153198
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:6644344fc85bbdaf1c97f96a593648fe5597dd90,",
+      "name": "Grayscale/Label",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4313725531101227,
+            "g": 0.4431372582912445,
+            "b": 0.5686274766921997
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:05c03d054f79376fe4c69d10189c97f5a918a218,",
+      "name": "Grayscale/Body",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.30588236451148987,
+            "g": 0.29411765933036804,
+            "b": 0.4000000059604645
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:4cd7423518371442a30b39799af3e7e66c2b71cf,",
+      "name": "Grayscale/Ash",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.14901961386203766,
+            "g": 0.13725490868091583,
+            "b": 0.21960784494876862
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5422b8b3fe01dd880dbc73598929d4febfe73c88,",
+      "name": "Grayscale/Off-Black",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:03b74af7b600425a89dd64331c0dd5056552c8d2,",
+      "name": "Primary / BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9215686321258545,
+            "g": 0.9254902005195618,
+            "b": 0.9960784316062927
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:1702c6188b81ea7fa8206e5df5379bca10bb5f7a,",
+      "name": "Primary/Light",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7490196228027344,
+            "g": 0.7450980544090271,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d402c6b81ac55e6b30c0092f6d0afa686a5c678e,",
+      "name": "Primary/Darkmode",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6611605882644653,
+            "g": 0.5874999761581421,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:a2c6d4dd71e912fc468fd553f5f57089ef32f744,",
+      "name": "Primary/Default",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3803921639919281,
+            "g": 0.04313725605607033,
+            "b": 0.9372549057006836
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:1dfbba3f059fba85ebd9c3bec6cfb770733adaf6,",
+      "name": "Primary/Dark",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2801925241947174,
+            "g": 0,
+            "b": 0.6711588501930237
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c660e455e3d7c94db175b8aec1cee9e43cd6e1d5,",
+      "name": "Secondary / Light",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8901960849761963,
+            "g": 0.9960784316062927,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f42aa3a6c71d838d5b0a685760c185c232cf3fca,",
+      "name": "Secondary/BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5529412031173706,
+            "g": 0.9137254953384399,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:47e399c531dfcdacda3e6959d2851f3552db4fe3,",
+      "name": "Secondary/Darkmode",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3127792477607727,
+            "g": 0.7827010154724121,
+            "b": 0.9878255128860474
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:2c73b48f60f0847bcc6a7898ae94a5a444a866fa,",
+      "name": "Secondary/Default",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.35686275362968445,
+            "b": 0.8313725590705872
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:cf52e011ad5a2329be5bb4c9dfc7fd34a398e491,",
+      "name": "Secondary/Dark",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.2549019753932953,
+            "b": 0.6745098233222961
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:fbdd0b0aead37c66783809af8691fb8752ba458d,",
+      "name": "Error / Light",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9254902005195618,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:2be2699789fc6528a2b94d969969654734f4750c,",
+      "name": "Error/BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.6705882549285889,
+            "b": 0.9098039269447327
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c46c2023443aa95d46b9dea46f6f5fecac63d0a0,",
+      "name": "Error/Darkmode",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.45830076932907104,
+            "b": 0.79421466588974
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:fd2d866c748649aae2dd87330fabf84b65163214,",
+      "name": "Error/Default",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7919921875,
+            "g": 0.006574153900146484,
+            "b": 0.3103680908679962
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d49b5d7d9d7c68221bbb32908a052dab72e1ac56,",
+      "name": "Error/Dark",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6211588382720947,
+            "g": 0,
+            "b": 0.22029457986354828
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:43c15f5fcfb6e5c51ce2724035bf31433bac2637,",
+      "name": "Success/Light",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9176470637321472,
+            "g": 0.9764705896377563,
+            "b": 0.8705882430076599
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:3b89c0fdc14a3f2c9c677f98d6438700855c65e0,",
+      "name": "Success / BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7960784435272217,
+            "g": 1,
+            "b": 0.6823529601097107
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f6ae00445a191887136505af5f2f125878f27afc,",
+      "name": "Success/Darkmode",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6509804129600525,
+            "g": 0.9686274528503418,
+            "b": 0.529411792755127
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:bf1caad471de0eda7887365aedddb39f33f60b09,",
+      "name": "Success/Default",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.5411764979362488,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:2eff2d2741eaea0eb57ce6f07860793a602e65da,",
+      "name": "Success/Dark",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.022501617670059204,
+            "g": 0.45032551884651184,
+            "b": 0.022501617670059204
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:64ac02523aafc4d4b5d6e0a90d3682d59d4aaf35,",
+      "name": "Warning/Light",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9722119569778442,
+            "b": 0.9124674797058105
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d39184fcd1e66f95770669c2433b840bb60cb89a,",
+      "name": "Warning / BG",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9021061658859253,
+            "b": 0.6916341185569763
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:819fd6db47b9cb3052348e85dfefa955b52675c2,",
+      "name": "Warning/Darkmode",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.8743887543678284,
+            "b": 0.6041340827941895
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:ae87349eca9f1d464aff0524c0f6e3c75ce67d12,",
+      "name": "Warning/Default",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9176470637321472,
+            "g": 0.6745098233222961,
+            "b": 0.1882352977991104
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:17a753208eb10c45c3a8ae081942c1bac0b55f82,",
+      "name": "Warning/Dark",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.38823530077934265,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:179386addac559949598ebbbd92d4069087dab4d,",
+      "name": "Overlay/Downward Lighten",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.7490196228027344
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:2fd48031aaebba237e5ec105a1c6659f18398648,",
+      "name": "Overlay/Upward Lighten",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.7490196228027344
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:3ffdb39d8d33ed50d0f15a0cf0dbe0e9018e4300,",
+      "name": "Overlay/Downward Darken",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.7490196228027344
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:1913fdf797af30d4dff13a4fd056d537d7e7caa5,",
+      "name": "Overlay/Upward Darken",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.7490196228027344
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:033c83263cb85ad4154514cf88b50d2af8148aef,",
+      "name": "Red/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9490196108818054,
+            "b": 0.9450980424880981
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5eb7272dabb34a31e0f7229f851f02d21fd71e93,",
+      "name": "Red/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.7647058963775635,
+            "b": 0.7529411911964417
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:8244f75517b58dbb9086cdcb4f9048ebd58cf734,",
+      "name": "Red/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.5900285243988037,
+            "b": 0.5624674558639526
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:a2dc9523af1b89b678620b9acb0558cffa2ab89d,",
+      "name": "Red/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.991992175579071,
+            "g": 0.3822285830974579,
+            "b": 0.314098596572876
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:96be9cac1b1afc33849dfd7694139afc6166f7c3,",
+      "name": "Red/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9019607901573181,
+            "g": 0.10588235408067703,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:dabc651edcfa18289eeeabe22d6da551c5622f2d,",
+      "name": "Red/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6711588501930237,
+            "g": 0.07786926627159119,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:07328cb2ce8504becb1503725c2a5eb782397aff,",
+      "name": "Red/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5461588501930237,
+            "g": 0.0710754543542862,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:691fb31c25184fbb13117cc990b9e2f7c9416ce1,",
+      "name": "Red/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.36699217557907104,
+            "g": 0.04770902544260025,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:abd6d53ba1db8afcb2c1639c4d8ab0337ce2629c,",
+      "name": "Orange/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.95686274766922,
+            "b": 0.9215686321258545
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:51781dd2130e973677619c0a544dfed08d81ce6f,",
+      "name": "Orange/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.8588235378265381,
+            "b": 0.7411764860153198
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:00e629b9d553ccc61a5966ddf788c1085e019e4f,",
+      "name": "Orange/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.6507335901260376,
+            "b": 0.35413414239883423
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:8aed719978a46e227a68be47a773d70d84a4f1e2,",
+      "name": "Orange/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.6000000238418579,
+            "b": 0.26274511218070984
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d1bb3984e34a540b17b7bc146e106bff327fe7fb,",
+      "name": "Orange/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9333333373069763,
+            "g": 0.4274509847164154,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:2b8b30df7a770743795057b424864751fce07e3f,",
+      "name": "Orange/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7607843279838562,
+            "g": 0.34117648005485535,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d08ac7672c985bea5dbd2a2851b84b54675b045c,",
+      "name": "Orange/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6000000238418579,
+            "g": 0.27450981736183167,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:74b1ac5f73e91972eefb6b8defd918982a9df62d,",
+      "name": "Orange/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4000000059604645,
+            "g": 0.18369099497795105,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:ffd08b0f52624cb93d71dc37a7ee025573c2cbb8,",
+      "name": "Yellow/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9722119569778442,
+            "b": 0.9124674797058105
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f2f383b2f93160056617cc6218c1448d13970f5a,",
+      "name": "Yellow/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9021061658859253,
+            "b": 0.6916341185569763
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:6688427dbf66c512f31cdf2070a76df6b9cf0661,",
+      "name": "Yellow/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.8743887543678284,
+            "b": 0.6041340827941895
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:fe544a59283c5d64219b1434d3cc03fdec303e50,",
+      "name": "Yellow/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.991992175579071,
+            "g": 0.7981477975845337,
+            "b": 0.38436466455459595
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5f8cf851a49c215c2122dfeaeda870a318c2824b,",
+      "name": "Yellow/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9176470637321472,
+            "g": 0.6745098233222961,
+            "b": 0.1882352977991104
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:20404c567fcc804d5e2d93f44b5710309cdc48c9,",
+      "name": "Yellow/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.38823530077934265,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d4c920ea8ceaa07a0d96c724f621a4283b613c57,",
+      "name": "Yellow/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.42949217557907104,
+            "g": 0.33231982588768005,
+            "b": 0.1359918713569641
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:4d538853259d63e0231242f9661dd1f07fd85bc2,",
+      "name": "Yellow/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.32532551884651184,
+            "g": 0.2505685091018677,
+            "b": 0.09623154997825623
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:0c36b349d75e4e1262463c33a03f65d3be2328e5,",
+      "name": "Green/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9176470637321472,
+            "g": 0.9764705896377563,
+            "b": 0.8705882430076599
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:00ac40bd8ee50952845e912cce4f62b9986ef923,",
+      "name": "Green/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7960784435272217,
+            "g": 1,
+            "b": 0.6823529601097107
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:83211477da5e43283469bf1538d688b31f8bebed,",
+      "name": "Green/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6509804129600525,
+            "g": 0.9686274528503418,
+            "b": 0.529411792755127
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:af3d7b45c6e0a8a52794a0c8199a8142918a0bf0,",
+      "name": "Green/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4901960790157318,
+            "g": 0.9686274528503418,
+            "b": 0.3529411852359772
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:ff2b7e82db73c98ac884cc25bae4f9abd7dbb013,",
+      "name": "Green/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0941176488995552,
+            "g": 0.7333333492279053,
+            "b": 0.0470588244497776
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:704f0611950a51e35ae17704b79a0e8c18952ef0,",
+      "name": "Green/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.5411764979362488,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c08b6ab9678538803c2ac30b4e04254ff7258831,",
+      "name": "Green/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.022501617670059204,
+            "g": 0.45032551884651184,
+            "b": 0.022501617670059204
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:b9cfc0030c1e17930e09f69fbdb00a572359b7a4,",
+      "name": "Green/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.027450980618596077,
+            "g": 0.3294117748737335,
+            "b": 0.03921568766236305
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:9d21dd28c87412188e00bc1aee72e8e49f402df8,",
+      "name": "Teal/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8784313797950745,
+            "g": 1,
+            "b": 0.9725490212440491
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f0d857d2eff10e2b4f39aeae6f7899a7b77ff384,",
+      "name": "Teal/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6117647290229797,
+            "g": 0.9843137264251709,
+            "b": 0.9372549057006836
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f6f8acb605f66344541e90721f8787d976b1ce6b,",
+      "name": "Teal/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4274509847164154,
+            "g": 0.9921568632125854,
+            "b": 0.929411768913269
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:973a2fcac82724def201c37306df1976bcbc16ce,",
+      "name": "Teal/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2549019753932953,
+            "g": 0.9725490212440491,
+            "b": 0.8823529481887817
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:8242372b368002819d4f5fc1886723d6f0d72839,",
+      "name": "Teal/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0117647061124444,
+            "g": 0.8117647171020508,
+            "b": 0.7333333492279053
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:65dd030e7af144576b3ed9cf915c5244bd63755b,",
+      "name": "Teal/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.5215686559677124,
+            "b": 0.47843137383461
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:544c8d198d796b56121c51de28243d010bfcc282,",
+      "name": "Teal/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.4794921875,
+            "b": 0.439834862947464
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:2f9a72a64728fda8d35f731006f7c76e8837805b,",
+      "name": "Teal/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.3378255069255829,
+            "b": 0.2869701087474823
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:0f378c88d9be130eb5e392ca088605fa263db578,",
+      "name": "Blue/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8901960849761963,
+            "g": 0.9960784316062927,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:43ad9369354075fc58a4cc1467e2899faaad78a8,",
+      "name": "Blue/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5529412031173706,
+            "g": 0.9137254953384399,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:61393a72d0f10ea3f381a04149fcef82726ec197,",
+      "name": "Blue/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3127792477607727,
+            "g": 0.7827010154724121,
+            "b": 0.9878255128860474
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:dd7ab4f1e13d6613e68dfc463e208e14e2cc6ab3,",
+      "name": "Blue/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.658823549747467,
+            "b": 0.9725490212440491
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:62b10f8a87461c4bf7fb01291e359c17a5ce765e,",
+      "name": "Blue/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.019607843831181526,
+            "g": 0.4627451002597809,
+            "b": 0.9411764740943909
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:9ecec6594ff6a8896ac4b629f4a8123dbd126a91,",
+      "name": "Blue/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.35686275362968445,
+            "b": 0.8313725590705872
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:6cb20d531d4335624789322f94e1ab51f799fc16,",
+      "name": "Blue/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.2549019753932953,
+            "b": 0.6745098233222961
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c44adf4d81fa6c42fcfebad24189ee5481cc6dde,",
+      "name": "Blue/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.14246654510498047,
+            "b": 0.38782551884651184
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5eb7e3b2affb9a59468667ee216ed8cf1232badf,",
+      "name": "Lavendar/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9493693709373474,
+            "g": 0.9416341185569763,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:a71af242590c0de8b4c0e858e9aeb2d168f5265b,",
+      "name": "Lavendar/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7683765888214111,
+            "g": 0.7124674320220947,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:aacb9ba9c4d0b904ea9cc5d416d40b35992ed812,",
+      "name": "Lavendar/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7164534330368042,
+            "g": 0.5499674081802368,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:202d793232551c33362d51cbe6d2cf453f0ee844,",
+      "name": "Lavendar/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7032729983329773,
+            "g": 0.45413410663604736,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:653043b105641f92a3a46aeb439e4972970bf303,",
+      "name": "Lavendar/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6666666865348816,
+            "g": 0.20000000298023224,
+            "b": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:ddb715a12e75930adba7995fb44f228053e151a5,",
+      "name": "Lavendar/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4243401288986206,
+            "g": 0,
+            "b": 0.6836588382720947
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:d91449bb8728ab2917bba22f8c7e55009a48a564,",
+      "name": "Lavendar/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.33212825655937195,
+            "g": 0,
+            "b": 0.5169922113418579
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:e2631b203d317a9a752185fa0b942ecb77f35b3b,",
+      "name": "Lavendar/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2293904572725296,
+            "g": 0,
+            "b": 0.3336588442325592
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:b30381a08f0feb8e0bd6743e2566da5d7ad8742e,",
+      "name": "Pink/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9254902005195618,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f45fc5fa0e43218d8a75d04668a8ffbab0625e57,",
+      "name": "Pink/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.6705882549285889,
+            "b": 0.9098039269447327
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5455e919368a9500c46a451d5ca2b48e686b01af,",
+      "name": "Pink/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.45830076932907104,
+            "b": 0.79421466588974
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:73a4ca8a9f60471de044cca2eb7b42e840a8bea6,",
+      "name": "Pink/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.32912319898605347,
+            "b": 0.687809944152832
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:22b87c6fe741bfab4fdf7c90cecd398fbffcafe1,",
+      "name": "Pink/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8901960849761963,
+            "g": 0.007843137718737125,
+            "b": 0.43529412150382996
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:fd0c552b635fce00fb80c0258d7a9679291c04b6,",
+      "name": "Pink/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7919921875,
+            "g": 0.006574153900146484,
+            "b": 0.3103680908679962
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:c5ae6b5290ab4fa2a6ca50768b477b8ec1faf691,",
+      "name": "Pink/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6211588382720947,
+            "g": 0,
+            "b": 0.22029457986354828
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:8e8b4b82f4d0f88c65ba43811d50a02959bc29a8,",
+      "name": "Pink/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3586263060569763,
+            "g": 0,
+            "b": 0.11954215914011002
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5edb4f47290b71b1675523fd3ea03e01a631654d,",
+      "name": "Cool Gray/50",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9882352948188782,
+            "g": 0.9882352948188782,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:7bdafca4ba9bdec36f1349a4d53f47ae9989429f,",
+      "name": "Cool Gray/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9882352948188782,
+            "g": 0.9882352948188782,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:f87766ea84155dc67e8543bdbeb8e09bc8706bf3,",
+      "name": "Cool Gray/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9686274528503418,
+            "g": 0.9686274528503418,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:5393378ce9a529a2c5d88cb13b6f7704e4726fc2,",
+      "name": "Cool Gray/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:fe7309af5cca89807c805bb2576cb188da0f7bc8,",
+      "name": "Cool Gray/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8588235378265381,
+            "b": 0.9137254953384399
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:74b725a94d6117795798771ce50f916dc5a21b71,",
+      "name": "Cool Gray/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6274510025978088,
+            "g": 0.6392157077789307,
+            "b": 0.7411764860153198
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:0f0f81096ba3fd93663000888065e487139ec68b,",
+      "name": "Cool Gray/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4313725531101227,
+            "g": 0.4431372582912445,
+            "b": 0.5686274766921997
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:0d8dd39fddf6796dcc75422dbd3f270c21467a97,",
+      "name": "Cool Gray/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.30588236451148987,
+            "g": 0.29411765933036804,
+            "b": 0.4000000059604645
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:321546907149006abb44c3aaa924d3ed99f09497,",
+      "name": "Cool Gray/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.14901961386203766,
+            "g": 0.13725490868091583,
+            "b": 0.21960784494876862
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:4e60ca73a1ef30947f4b1d4d12dcaa0c7997bcd2,",
+      "name": "Cool Gray/900",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16470588743686676
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:7f65771b24c9e07b47ff13c7340765a4a2f141d4,",
+      "name": "Warm Gray/100",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9882352948188782,
+            "g": 0.9882352948188782,
+            "b": 0.9882352948188782
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:aaebe9b474181d6b5903ac3ac92d991e4ad8a5c1,",
+      "name": "Warm Gray/200",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9669596552848816,
+            "g": 0.9669596552848816,
+            "b": 0.9669596552848816
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:daf4bc59c7395cc2c3baa87050f4cb2eac232603,",
+      "name": "Warm Gray/300",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9419921636581421,
+            "g": 0.9340909719467163,
+            "b": 0.9340909719467163
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:cc0c52b2f39fb0f82d5b8ed5a8ef1d9ba0ccba3d,",
+      "name": "Warm Gray/400",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8586588501930237,
+            "g": 0.8443199396133423,
+            "b": 0.8443199396133423
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:9c99f15b662fcf6c5d85ba849efbfef457ee86d2,",
+      "name": "Warm Gray/500",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6503255367279053,
+            "g": 0.6259171366691589,
+            "b": 0.6259171366691589
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:6ccf677b25eeec0c658bfe52371e9f22b5e1d14d,",
+      "name": "Warm Gray/600",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.47843137383461,
+            "g": 0.4588235318660736,
+            "b": 0.4588235318660736
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:9f414960da9a49cb1f9d5d04a7c9bb6461921b1b,",
+      "name": "Warm Gray/700",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4003255069255829,
+            "g": 0.3769601583480835,
+            "b": 0.3769601583480835
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:32a003af678bf872421a75464a7bbd83c68a2d29,",
+      "name": "Warm Gray/800",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.239215686917305,
+            "g": 0.21960784494876862,
+            "b": 0.21960784494876862
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:e82d02be954403008c991bd064f3dcef15d3cbfe,",
+      "name": "Warm Gray/900",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.08782552182674408,
+            "g": 0.03146795555949211,
+            "b": 0.03146795555949211
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:4571962f6dd4e483a53e351753306929f92ea64d,",
+      "name": "Gradients / 1",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.2980392277240753,
+                "b": 0.2980392277240753,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              },
+              "position": 0.4740000069141388
+            },
+            {
+              "color": {
+                "r": 0.800000011920929,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:cb07ca1d7cf44d86ad33c63e7ce07215cd1011cc,",
+      "name": "Gradients / 2",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.0784313753247261,
+                "b": 0.7372549176216125,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.019607843831181526,
+                "b": 0.12156862765550613,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:24eda6698f71b3032800afa29c0a2099d7003532,",
+      "name": "Gradients / 3",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.003921568859368563,
+                "b": 0.4745098054409027,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.054901961237192154,
+                "b": 0.7019608020782471,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9700000286102295,
+              0.23999999463558197,
+              0
+            ],
+            [
+              -0.23999999463558197,
+              0.9700000286102295,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:3fc5ad36c36af71c178591acd7cd19124ab6e837,",
+      "name": "Gradients / 4",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.48235294222831726,
+                "b": 0.3490196168422699,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.2862745225429535,
+                "b": 0.47843137383461,
+                "a": 1
+              },
+              "position": 0.47920000553131104
+            },
+            {
+              "color": {
+                "r": 0.9921568632125854,
+                "g": 0.08627451211214066,
+                "b": 0.6117647290229797,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9700000286102295,
+              0.23999999463558197,
+              0
+            ],
+            [
+              -0.23999999463558197,
+              0.9700000286102295,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:c003d1991b6a36efd23224c50b1a5551e41ad61a,",
+      "name": "Gradients / 5",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.6745098233222961,
+                "b": 0.4000000059604645,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0.4588235318660736,
+                "b": 0,
+                "a": 1
+              },
+              "position": 0.4634999930858612
+            },
+            {
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.4117647111415863,
+                "b": 0,
+                "a": 1
+              },
+              "position": 0.9375
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9700000286102295,
+              0.2199999988079071,
+              0
+            ],
+            [
+              -0.2199999988079071,
+              0.9700000286102295,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:38915566e76223c04a42c7097f7f223a76af8979,",
+      "name": "Gradients / 6",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.6274510025978088,
+                "g": 0.3450980484485626,
+                "b": 0.6823529601097107,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9882352948188782,
+                "g": 0.42352941632270813,
+                "b": 0.4588235318660736,
+                "a": 1
+              },
+              "position": 0.604200005531311
+            },
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.6666666865348816,
+                "b": 0.6666666865348816,
+                "a": 1
+              },
+              "position": 0.9375
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9700000286102295,
+              0.2199999988079071,
+              0
+            ],
+            [
+              -0.2199999988079071,
+              0.9700000286102295,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:96410966ed54fc5442ddbfecceeeb7d8b03ac821,",
+      "name": "Gradients / 7",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.35686275362968445,
+                "b": 0.9450980424880981,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.7333333492279053,
+                "g": 0.2823529541492462,
+                "b": 0.7490196228027344,
+                "a": 1
+              },
+              "position": 0.4740000069141388
+            },
+            {
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.4941176474094391,
+                "b": 0.3019607961177826,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:641cd11053d856a515a2495bcad5ff98d9d0d87a,",
+      "name": "Gradients / 8",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9372549057006836,
+                "g": 0.22745098173618317,
+                "b": 0.5254902243614197,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.49803921580314636,
+                "g": 0.6352941393852234,
+                "b": 0.9529411792755127,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:041e6810e8c8c5339d87cef2022968e241af715e,",
+      "name": "Gradients / 9",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9921568632125854,
+                "g": 0.9921568632125854,
+                "b": 0.6078431606292725,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9764705896377563,
+                "g": 0.9764705896377563,
+                "b": 0.0235294122248888,
+                "a": 1
+              },
+              "position": 0.4634999930858612
+            },
+            {
+              "color": {
+                "r": 0.7803921699523926,
+                "g": 0.7803921699523926,
+                "b": 0.019607843831181526,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:e9b29447702ac45e071eeb6907d5c5857522cd90,",
+      "name": "Gradients / 10",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.8313725590705872,
+                "b": 0.16470588743686676,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0.9882352948188782,
+                "b": 0.2862745225429535,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:30856f465c606a50933fd71fa7ca9409ba274809,",
+      "name": "Gradients / 11",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9764705896377563,
+                "g": 0.6705882549285889,
+                "b": 0.20392157137393951,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0.9019607901573181,
+                "b": 0.5568627715110779,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9800000190734863,
+              0.20999999344348907,
+              0
+            ],
+            [
+              -0.20999999344348907,
+              0.9800000190734863,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:8759d55ed6ce62f1c5f2b62a310f9ae4cd17b479,",
+      "name": "Gradients / 12",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.7137255072593689,
+                "b": 0.1568627506494522,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9333333373069763,
+                "g": 0.27843138575553894,
+                "b": 0,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9800000190734863,
+              0.20999999344348907,
+              0
+            ],
+            [
+              -0.20999999344348907,
+              0.9800000190734863,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:d69a81051b077c92d8fcd8b2c645cb920db8a13d,",
+      "name": "Gradients / 13",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.6000000238418579,
+                "g": 0.9960784316062927,
+                "b": 0.40392157435417175,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.6000000238418579,
+                "b": 0.3019607961177826,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:009ea6edb55e8a43ef6ddc4366482ebef10d6871,",
+      "name": "Gradients / 14",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.32156863808631897,
+                "g": 0.9333333373069763,
+                "b": 0.30980393290519714,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.019607843831181526,
+                "g": 0.5921568870544434,
+                "b": 0,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:ed0668a85639a7cfdf18515e1aef3d5c97d61908,",
+      "name": "Gradients / 15",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.5058823823928833,
+                "g": 0.929411768913269,
+                "b": 0.4941176474094391,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.42352941632270813,
+                "b": 0.8156862854957581,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:44cc4925f6ab43008a5a2946444a865b908676a0,",
+      "name": "Gradients / 16",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.772549033164978,
+                "g": 1,
+                "b": 0.6666666865348816,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.729411780834198,
+                "b": 0.7764706015586853,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:d7f67b51317af4aded5927f221d7b6ce8604786d,",
+      "name": "Gradients / 17",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 1,
+                "b": 0.8666666746139526,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.6000000238418579,
+                "b": 0.6000000238418579,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:d0e05b21ae2986f13ccfd21d6526467322200903,",
+      "name": "Gradients / 18",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.24705882370471954,
+                "g": 0.45490196347236633,
+                "b": 0.8156862854957581,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.4117647111415863,
+                "g": 0.7843137383460999,
+                "b": 0.8705882430076599,
+                "a": 1
+              },
+              "position": 0.4740000069141388
+            },
+            {
+              "color": {
+                "r": 0.6509804129600525,
+                "g": 0.8823529481887817,
+                "b": 0.8117647171020508,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:1dec352cba62778949df37bf2e13eeb8300dab67,",
+      "name": "Gradients / 19",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.250980406999588,
+                "g": 0.16862745583057404,
+                "b": 0.40392157435417175,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.1921568661928177,
+                "g": 0.7137255072593689,
+                "b": 0.5803921818733215,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:63e369ef73abf9c04cb90ce7839c5c059f74e2ce,",
+      "name": "Gradients / 20",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.07058823853731155,
+                "g": 0.6705882549285889,
+                "b": 0.7254902124404907,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.08627451211214066,
+                "g": 0.09803921729326248,
+                "b": 0.364705890417099,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:927d21010508be14901dfa8fd95cc32c92814080,",
+      "name": "Gradients / 21",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0.729411780834198,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.0235294122248888,
+                "g": 0.24313725531101227,
+                "b": 0.9764705896377563,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:919ea748218a551c73e94a758ace204c67306df7,",
+      "name": "Gradients / 22",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.3686274588108063,
+                "b": 0.9764705896377563,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.18431372940540314,
+                "g": 0.9254902005195618,
+                "b": 0.9019607901573181,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:e02030f7fa57c3f9816ca8956bb99531372cd5a2,",
+      "name": "Gradients / 23",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.04313725605607033,
+                "g": 0.3843137323856354,
+                "b": 0.9607843160629272,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.003921568859368563,
+                "g": 0.24705882370471954,
+                "b": 0.7882353067398071,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9800000190734863,
+              0.20999999344348907,
+              0
+            ],
+            [
+              -0.20999999344348907,
+              0.9800000190734863,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:5995e212d2c7daa99307cfd1dd6b80f0d49cce1f,",
+      "name": "Gradients / 24",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.01568627543747425,
+                "g": 0.019607843831181526,
+                "b": 0.41960784792900085,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.3764705955982208,
+                "g": 0.5686274766921997,
+                "b": 0.9686274528503418,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:944ef17a313fd13c4048cb4a68015e24aba48a3f,",
+      "name": "Gradients / 25",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.6352941393852234,
+                "g": 0.41960784792900085,
+                "b": 0.9803921580314636,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.30980393290519714,
+                "g": 0.0235294122248888,
+                "b": 0.7764706015586853,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:dce07eaab46a7b6131990ea4e8ae903e82a16d98,",
+      "name": "Gradients / 26",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.46666666865348816,
+                "g": 0.7607843279838562,
+                "b": 0.9450980424880981,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0.7058823704719543,
+                "b": 0.929411768913269,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:b2ef664f4759ee6bc7861fe19f600b53b337b660,",
+      "name": "Gradients / 27",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.772549033164978,
+                "g": 0.4000000059604645,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.3607843220233917,
+                "g": 0,
+                "b": 0.7254902124404907,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:8bff8f5a6e7c6d54144b2bc28bedf552bc79d952,",
+      "name": "Gradients / 28",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.37254902720451355,
+                "g": 0.18039216101169586,
+                "b": 0.9176470637321472,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.8901960849761963,
+                "g": 0.3490196168422699,
+                "b": 0.9764705896377563,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:8f6f99efb70ec3ccc0638e923c0575a8ff8498b4,",
+      "name": "Gradients / 29",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.8117647171020508,
+                "g": 0.4117647111415863,
+                "b": 0.9882352948188782,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.686274528503418,
+                "g": 0.019607843831181526,
+                "b": 0.9803921580314636,
+                "a": 1
+              },
+              "position": 0.4844000041484833
+            },
+            {
+              "color": {
+                "r": 0.5490196347236633,
+                "g": 0.01568627543747425,
+                "b": 0.7843137383460999,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:6a53bcaa41c1f56d9b23f2a9a72be3a6d2cf7af9,",
+      "name": "Gradients / 30",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9019607901573181,
+                "g": 0.6980392336845398,
+                "b": 0.9921568632125854,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.5843137502670288,
+                "g": 0.3490196168422699,
+                "b": 1,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:5b6d3764250623b87cc530d50eec01d3aed3baf4,",
+      "name": "Gradients / 31",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_RADIAL",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0.8941176533699036,
+                "b": 0.9960784316062927,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.6235294342041016,
+                "b": 0.9921568632125854,
+                "a": 1
+              },
+              "position": 0.39117205142974854
+            },
+            {
+              "color": {
+                "r": 0.7450980544090271,
+                "g": 0.09019608050584793,
+                "b": 0.9843137264251709,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.5702286958694458,
+              -0.1122441291809082,
+              0.5035480856895447
+            ],
+            [
+              0.1122441440820694,
+              0.14471985399723053,
+              0.3630768060684204
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:895e90becb56f0b35b42fa31e4c7ee1397b79da0,",
+      "name": "Gradients / 32",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.2235294133424759,
+                "b": 0.8196078538894653,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.6705882549285889,
+                "g": 0.18039216101169586,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0.4634999930858612
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.7803921699523926,
+                "b": 1,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:c45d3748c75a8818cad9fce1753575cf49cc5c7b,",
+      "name": "Gradients / 33",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 0.4000000059604645,
+                "b": 0.8745098114013672,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0.7882353067398071,
+                "a": 1
+              },
+              "position": 0.46880000829696655
+            },
+            {
+              "color": {
+                "r": 0.800000011920929,
+                "g": 0,
+                "b": 0.6313725709915161,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:771bae0bb6a083ecbba7563a14443d4c6a14d960,",
+      "name": "Gradients / 34",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.6823529601097107,
+                "g": 0.32549020648002625,
+                "b": 0.5333333611488342,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.239215686917305,
+                "g": 0.062745101749897,
+                "b": 0.32156863808631897,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:274a9c2f44c1fd54eaaa69470ea0c966a129d177,",
+      "name": "Gradients / 35",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.686274528503418,
+                "g": 0.2705882489681244,
+                "b": 0.8588235378265381,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.48235294222831726,
+                "b": 0.5882353186607361,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:b8e6fee777f33d79720014c2ce3ab3cd195be437,",
+      "name": "Gradients / 36",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.658823549747467,
+                "b": 0.686274528503418,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.7450980544090271,
+                "g": 0.4745098054409027,
+                "b": 0.4156862795352936,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.9700000286102295,
+              0.2199999988079071,
+              0
+            ],
+            [
+              -0.2199999988079071,
+              0.9700000286102295,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:10384c67620308c98aff768d962b24cb4fb2c893,",
+      "name": "Gradients / 37",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.40392157435417175,
+                "b": 0.6980392336845398,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.003921568859368563,
+                "b": 0.49803921580314636,
+                "a": 1
+              },
+              "position": 0.4844000041484833
+            },
+            {
+              "color": {
+                "r": 0.8941176533699036,
+                "g": 0.003921568859368563,
+                "b": 0.45098039507865906,
+                "a": 1
+              },
+              "position": 0.9843999743461609
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:8e95897693c674160f6dfc40173295130f682a1d,",
+      "name": "Gradients / 38",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9803921580314636,
+                "g": 0.8078431487083435,
+                "b": 0.7215686440467834,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9019607901573181,
+                "g": 0.686274528503418,
+                "b": 0.800000011920929,
+                "a": 1
+              },
+              "position": 0.3280999958515167
+            },
+            {
+              "color": {
+                "r": 0.7843137383460999,
+                "g": 0.7450980544090271,
+                "b": 0.8980392217636108,
+                "a": 1
+              },
+              "position": 0.6563000082969666
+            },
+            {
+              "color": {
+                "r": 0.6745098233222961,
+                "g": 0.8196078538894653,
+                "b": 0.9450980424880981,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:608bc2e474d466754986a9e69393d5e8b7792df7,",
+      "name": "Gradients / 39",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.8901960849761963,
+                "g": 0.9686274528503418,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 0.8470588326454163,
+                "b": 0.7647058963775635,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:bf804b2547ca2d5e81aa399dadf7df6827fc6d10,",
+      "name": "Gradients / 40",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9960784316062927,
+                "g": 0.7803921699523926,
+                "b": 0.5647059082984924,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.9764705896377563,
+                "g": 0.5686274766921997,
+                "b": 0.9686274528503418,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:332200a96a1134836506fd7c0727056c046db293,",
+      "name": "Gradients / 41",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.658823549747467,
+                "g": 0.6392157077789307,
+                "b": 0.6392157077789307,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.3607843220233917,
+                "g": 0.34117648005485535,
+                "b": 0.34117648005485535,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:d8167ad1578d748810b522ff0901e8b93b43d1ea,",
+      "name": "Gradients / 42",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.929411768913269,
+                "g": 0.9686274528503418,
+                "b": 0.9725490212440491,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.7098039388656616,
+                "g": 0.7803921699523926,
+                "b": 0.8823529481887817,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:9b27b548db3b79c14f30ff15583f43ffd1a53105,",
+      "name": "Gradients / 43",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.658823549747467,
+                "g": 0.6666666865348816,
+                "b": 0.7411764860153198,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.38823530077934265,
+                "g": 0.4000000059604645,
+                "b": 0.5098039507865906,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:e617c44eab6a464f5b4114e8af6244701e99489f,",
+      "name": "Gradients / 44",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.32549020648002625,
+                "g": 0.33725491166114807,
+                "b": 0.3921568691730499,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.125490203499794,
+                "g": 0.1764705926179886,
+                "b": 0.22745098173618317,
+                "a": 1
+              },
+              "position": 1
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0.09000000357627869,
+              0
+            ],
+            [
+              -0.09000000357627869,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S:b7b664ca24091526dee0d28a87e4bfe2598a017f,",
+      "name": "Transparent/Dark Overlay 95",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.949999988079071,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:a222a0548c530af8ae410f50ab5e234f6488bbc4,",
+      "name": "Transparent/Dark Overlay 75",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.75,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:1d55966095eb42082dd7281cd2a88f30444feb45,",
+      "name": "Transparent/Dark Overlay 65",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6499999761581421,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:0d03da1047d1e9ada537a05aa6f47314801190e8,",
+      "name": "Transparent/Dark Overlay 40",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:b5075404cb304098620c676041687d62410cbd3c,",
+      "name": "Transparent/Dark Overlay 25",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.25,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:6b50c7116b978697fdf2a4d9f5a3a480a900ba81,",
+      "name": "Transparent/Dark Overlay 10",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10000000149011612,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.0784313753247261,
+            "b": 0.16862745583057404
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:7184f0f3bfd8a11a4460648e487e69d7f16fe925,",
+      "name": "Transparent/Light Overlay 95",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.949999988079071,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:13a2fb8572a38c1472c730fcfcf7424f5e77e3c4,",
+      "name": "Transparent/Light Overlay 75",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.75,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:7309b61512472ac09415f10a10f5672e707014c2,",
+      "name": "Transparent/Light Overlay 65",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6499999761581421,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:9df59ef5e83aa77d0bb86685c92950ab7b6dc355,",
+      "name": "Transparent/Light Overlay 40",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:24273bd24e45ba8c24720a49d7259a93c572e1a2,",
+      "name": "Transparent/Light Overlay 25",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.25,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:3ba4c7b688c2d9ea1b6faed4931a0176f399c64e,",
+      "name": "Transparent/Light Overlay 10",
+      "type": "PAINT",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10000000149011612,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9411764740943909,
+            "b": 0.9647058844566345
+          }
+        }
+      ]
+    }
+  ]

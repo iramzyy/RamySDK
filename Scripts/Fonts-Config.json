@@ -1,10 +1,11 @@
 {
   "source": "../SDK-Fonts",
-  "destination": "../RamySDK/Common/UI/Pegasus Design System/Fonts",
+  "destination": "~/Desktop/Workstation/iOS/NerdorSDKs/Productivitii/Shared/UI/Fonts",
+  "project_path": "../../Productivitii/Productivitii.xcodeproj",
   "supported_weights": ["Regular", "Bold"],
   "fonts": [
     {
-      "family": "Poppins",
+      "family": "SF-Pro-Rounded",
       "locale": "english",
       "type": "sans-serif"
     },

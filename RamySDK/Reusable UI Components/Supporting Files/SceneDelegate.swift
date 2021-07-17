@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import PulseUI
 
 class SceneDelegate: ScenePluggableDelegate {
   static let restartSubject = PublishSubject<Void>()
@@ -29,7 +30,7 @@ extension SceneDelegate {
     window = UIWindow(windowScene: scene)
     defer { window?.makeKeyAndVisible() }
     guard !isUnitTesting else { return }
-    set(rootViewTo: PlaygroundViewController())
+    set(rootViewTo: MainViewController())
   }
 }
 

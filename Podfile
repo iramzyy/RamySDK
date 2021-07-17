@@ -21,6 +21,8 @@ def utilities_pods
   pod 'SVPinView' # For ease of handling OTPs
   pod 'AppCenter' # For Continous Integration & Delivery (For MVP Stage it's just Delivery)
   pod 'BiometricAuthentication' # For Security of the user when switching between apps
+  pod 'Sentry', :git => 'https://github.com/getsentry/sentry-cocoa.git' # For Logging
+  pod 'AlamofireEasyLogger' # Network Logger Helper
 end
 
 def firebase_pods
