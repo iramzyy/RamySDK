@@ -1,0 +1,199 @@
+---
+format_version: '11'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: ios
+trigger_map:
+- push_branch: release/*
+  workflow: pipeline_internal-deploy
+- push_branch: hotfix/*
+  workflow: pipeline_hotfix-internal-deploy
+- push_branch: main
+  workflow: pipeline_testflight-deploy
+- pull_request_source_branch: "*"
+  workflow: pipeline_pull-request
+- tag: hotfix-*
+  workflow: pipeline_production-hotfix-deploy
+workflows:
+  component_build-and-test:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    steps:
+    - xcode-test@2: {}
+  component_cache:
+    steps:
+    - cache-push@2: {}
+  component_code-analysis:
+    steps:
+    - xcode-analyze@2: {}
+  component_core:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@6: {}
+    - cache-pull@2: {}
+    - certificate-and-profile-installer@1: {}
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+  component_deploy_app_store:
+    steps:
+    - xcode-archive@3:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - export_method: app-store
+    - deploy-to-itunesconnect-deliver@2:
+        inputs:
+        - password: "$APPLE_ID_PASSWORD"
+        - app_password: "$APP_SPECIFIC_PASSWORD"
+        - team_id: "$TEAM_ID"
+        - team_name: "$TEAM_NAME"
+        - app_id: "$APP_STORE_CONNECT_APP_ID"
+        - bundle_id: "$APP_BUNDLE_ID"
+        - submit_for_review: 'yes'
+        - skip_metadata: 'no'
+        - skip_screenshots: 'no'
+        - skip_app_version_update: 'yes'
+        - itunescon_user: "$APPLE_ID"
+  component_deploy_internal:
+    steps:
+    - xcode-archive@3:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - export_method: ad-hoc
+    - deploy-to-bitrise-io@1: {}
+  component_deploy_testflight:
+    steps:
+    - xcode-archive@3:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - export_method: app-store
+    - deploy-to-itunesconnect-deliver@2:
+        inputs:
+        - itunescon_user: "$APPLE_ID"
+        - password: "$APPLE_ID_PASSWORD"
+        - app_password: "$APP_SPECIFIC_PASSWORD"
+        - team_id: "$TEAM_ID"
+        - team_name: "$TEAM_NAME"
+        - app_id: "$APP_STORE_CONNECT_APP_ID"
+        - bundle_id: "$APP_BUNDLE_ID"
+        - submit_for_review: 'no'
+        - skip_metadata: 'yes'
+        - skip_screenshots: 'yes'
+        - skip_app_version_update: 'yes'
+        - connection: apple_id
+  component_report:
+    steps:
+    - telegram-notify@1:
+        inputs:
+        - custom_message: "$TELEGRAM_CUSTOM_MESSAGE"
+        - download_url: "$REPORT_URL"
+  component_version:
+    steps:
+    - fastlane@3:
+        inputs:
+        - apple_id: "$APPLE_ID"
+        - password: "$APPLE_ID_PASSWORD"
+        - update_fastlane: 'false'
+        - verbose_log: 'yes'
+        - app_password: "$APP_SPECIFIC_PASSWORD"
+        - connection: apple_id
+        - lane: version
+  pipeline_hotfix-internal-deploy:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_deploy_internal
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "\U0001F6A8 Hotfix has been deployed internally! \U0001F4E2\n\n$CUSTOM_MESSAGE"
+    - REPORT_URL: "$BITRISE_PUBLIC_INSTALL_PAGE_URL"
+  pipeline_internal-deploy:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_deploy_internal
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "New Internal Release has been deployed \U0001F680\n\n$CUSTOM_MESSAGE"
+    - REPORT_URL: "$BITRISE_PUBLIC_INSTALL_PAGE_URL"
+  pipeline_production-deploy:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_version
+    - component_deploy_app_store
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "\U0001F389 Up Up and A waaay! New Production build
+        has been rolled out! \U0001F680\n\n$CUSTOM_MESSAGE"
+    - REPORT_URL: N/A (Production and TestFlight Builds Are Reachable from the app
+        or the portal itself)
+  pipeline_production-hotfix-deploy:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_version
+    - component_deploy_app_store
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "\U0001F625 *Whew!* Hotfix has been deployed to production!\n(Now
+        we can continue normally... \U0001F60C)\n\n$CUSTOM_MESSAGE"
+    - REPORT_URL: N/A (Production and TestFlight Builds Are Reachable from the app
+        or the portal itself)
+  pipeline_pull-request:
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_code-analysis
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "\U0001F9D0 Pull Request is ready to be reviewed \U0001F4E2\n\nP.S.:
+        URL Above is the PR's URL"
+    - REPORT_URL: https://github.com/teamproba/proba-app-ios/pulls
+  pipeline_testflight-deploy:
+    description: Workflow that activates the SSH key, clones the repo, pulls the cache
+      and any necessary script before building
+    after_run:
+    - component_core
+    - component_build-and-test
+    - component_version
+    - component_deploy_testflight
+    - component_report
+    - component_cache
+    envs:
+    - TELEGRAM_CUSTOM_MESSAGE: "\U0001F389 Up Up and A waaay! New TestFlight build
+        has been rolled out! \U0001F680\n\n$CUSTOM_MESSAGE"
+    - REPORT_URL: N/A (Production and TestFlight Builds Are Reachable from the app
+        or the portal itself)
+app:
+  envs:
+  - BITRISE_PROJECT_PATH: Proba.xcodeproj
+    opts:
+      is_expand: false
+  - opts:
+      is_expand: false
+    BITRISE_SCHEME: Proba
+  - opts:
+      is_expand: false
+    BITRISE_EXPORT_METHOD: development
+  - opts:
+      is_expand: false
+    TELEGRAM_CUSTOM_MESSAGE: "$CUSTOM_MESSAGE"
+meta:
+  bitrise.io:
+    machine_type_id: g2.4core
