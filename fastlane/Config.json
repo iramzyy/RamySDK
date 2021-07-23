@@ -1,10 +1,4 @@
 {
-    "sentry": {
-        "auth_token": "6689245615e049f7a9b5030641d6849eb029cb11ba54459884818f4815e08242",
-        "org_slug": "nerdor",
-        "project_slug": "nerdor"
-    },
-    "sonarqube": { 
-        
-    }
+    "sentry": {},
+    "sonarqube": {}
 }

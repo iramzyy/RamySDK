@@ -19,6 +19,17 @@ default_platform(:ios)
 
 configs = JSON.parse(File.read('./Config.json'), object_class: OpenStruct)
 
+def file_prepend(file, str)
+  new_contents = ""
+  File.open(file, 'r') do |fd|
+    contents = fd.read
+    new_contents = str << contents
+  end
+  # Overwrite file but now with prepended string on it
+  File.open(file, 'w') do |fd| 
+    fd.write(new_contents)
+  end
+end
 
 platform :ios do
   lane :metrics do
@@ -29,68 +40,54 @@ platform :ios do
     sonar
   end
 
-  desc "Build a new alpha version"
-  lane :version_dev do |options|
-    tag_prefix = 'ios/dev*'
-    title = 'iOS Development'
-
-    # Git status has to be clean
-    ensure_git_status_clean
-    
-    # Check if there is any change since last version
-    is_releaseable = analyze_commits(match: tag_prefix)
-    
-    unless is_releaseable
-      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
-
-      # Get release notes since last version for slack
-      notes = conventional_changelog(title: title, format: 'markdown')
-      # Create tag to recognize future "last version" (the current version)
-      add_git_tag(tag: "ios/dev/#{next_version}/#{build_number}")
-      push_git_tags
+  lane :version do
+    if is_ci
+      sh('git', 'fetch')
+      sh("git", "checkout", "main")
     end
-  end
 
-  lane :version_release do |options|
-    tag_prefix = 'ios/release*'
-    title = 'iOS Release'
-
-    # Git status has to be clean
-    ensure_git_status_clean
+    tag_format = '*'
+    is_releasable = analyze_commits(
+      match: tag_format,
+      releases: {:fix=>"patch", :feat=>"minor", :hotfix=>"patch"}
+    )
     
-    # Check if there is any change since last version
-    is_releaseable = analyze_commits(match: tag_prefix)
-    
-    unless is_releaseable
-      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
-
-      # Get release notes since last version for slack
-      notes = conventional_changelog(title: title, format: 'markdown')
-      # Create tag to recognize future "last version" (the current version)
-      add_git_tag(tag: "ios/release/#{next_version}/#{build_number}")
-      push_git_tags
+    unless is_releasable
+      UI.message('Nothing to release, incrementing Build Number')
+      increment_build_number
+      git_commit(path: ".", message: "Build Number Bump [skip ci]")
+      push_to_git_remote
+      next
     end
-  end
 
-  lane :version_staging do |options|
-    tag_prefix = 'ios/staging*'
-    title = 'iOS Staging'
+    UI.message('A New tag can be released\n\n')
 
-    # Git status has to be clean
-    ensure_git_status_clean
+    UI.message('Resetting Build number to 1')
+    increment_build_number(build_number: "1")
     
-    # Check if there is any change since last version
-    is_releaseable = analyze_commits(match: tag_prefix)
+    next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
     
-    unless is_releaseable
-      next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+    
+    UI.message('Generating release notes for this version')
+    notes = conventional_changelog(
+      format: 'markdown',
+      order: ["feat", "hotfix", "fix", "docs"]
+    )
+  
+    tag = "#{next_version}"
+    
+    UI.message('Incrementing Version Number')
+    increment_version_number(version_number: next_version)
 
-      # Get release notes since last version for slack
-      notes = conventional_changelog(title: title, format: 'markdown')
-      # Create tag to recognize future "last version" (the current version)
-      add_git_tag(tag: "ios/staging/#{next_version}/#{build_number}")
-      push_git_tags
-    end
+    UI.message('Recording to Changelog.md')
+    file_prepend('../CHANGELOG.md', notes)
+
+    UI.message('Committing and Pushing')
+    git_commit(path: ".", message: "Version Bump [skip ci]")
+    push_to_git_remote
+    UI.message('Adding & pushing the Git tag')
+    add_git_tag(tag: tag)
+    push_git_tags
   end
 
   lane :sync_sentry do
