@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043CE2672756D972004C35D1 /* UIControlEvent+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE25B2756D971004C35D1 /* UIControlEvent+Combine.swift */; };
+		043CE2682756D972004C35D1 /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE25C2756D971004C35D1 /* Codable+Helpers.swift */; };
+		043CE2692756D972004C35D1 /* UIControlTarget+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE25D2756D971004C35D1 /* UIControlTarget+Combine.swift */; };
+		043CE26A2756D972004C35D1 /* UIGestures+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE25E2756D971004C35D1 /* UIGestures+Publisher.swift */; };
+		043CE26B2756D972004C35D1 /* UIImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE25F2756D971004C35D1 /* UIImageView+Kingfisher.swift */; };
+		043CE26C2756D972004C35D1 /* UIButton+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2602756D971004C35D1 /* UIButton+Publisher.swift */; };
+		043CE26D2756D972004C35D1 /* UIImageView+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2612756D971004C35D1 /* UIImageView+Publisher.swift */; };
+		043CE26E2756D972004C35D1 /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2622756D971004C35D1 /* UITextField+Publisher.swift */; };
+		043CE26F2756D972004C35D1 /* UITextView+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2632756D971004C35D1 /* UITextView+Combine.swift */; };
+		043CE2702756D972004C35D1 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2642756D971004C35D1 /* Date+Extensions.swift */; };
+		043CE2712756D972004C35D1 /* UIControl+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2652756D972004C35D1 /* UIControl+Publisher.swift */; };
+		043CE2722756D972004C35D1 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2662756D972004C35D1 /* UICollectionView+Extensions.swift */; };
+		043CE2B22756DED5004C35D1 /* PhoneValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2AB2756DED5004C35D1 /* PhoneValidationRule.swift */; };
+		043CE2B32756DED5004C35D1 /* UsernameValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2AC2756DED5004C35D1 /* UsernameValidationRule.swift */; };
+		043CE2B42756DED5004C35D1 /* NameValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2AD2756DED5004C35D1 /* NameValidationRule.swift */; };
+		043CE2B52756DED5004C35D1 /* PasswordValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2AE2756DED5004C35D1 /* PasswordValidationRule.swift */; };
+		043CE2B62756DED5004C35D1 /* MatchingPasswordValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2AF2756DED5004C35D1 /* MatchingPasswordValidationRule.swift */; };
+		043CE2B72756DED5004C35D1 /* EmailValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2B02756DED5004C35D1 /* EmailValidationRule.swift */; };
+		043CE2B82756DED5004C35D1 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CE2B12756DED5004C35D1 /* ValidationRule.swift */; };
 		48CED0CB5628D5FF560ACAF5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E73A74B517390F0F55524FC /* Poppins-Bold.ttf */; };
 		4C98A125D957552D439E7C0F /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B86BA2D71E747351719C81 /* fonts.json */; };
 		514A85594AC4600EFC4B941D /* libPods-RamySDKUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */; };
@@ -194,6 +213,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043CE25B2756D971004C35D1 /* UIControlEvent+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControlEvent+Combine.swift"; sourceTree = "<group>"; };
+		043CE25C2756D971004C35D1 /* Codable+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Codable+Helpers.swift"; path = "../../../../sq10-ios-ca/SQ10/Core/Extensions+Helpers/Codable+Helpers.swift"; sourceTree = "<group>"; };
+		043CE25D2756D971004C35D1 /* UIControlTarget+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControlTarget+Combine.swift"; sourceTree = "<group>"; };
+		043CE25E2756D971004C35D1 /* UIGestures+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestures+Publisher.swift"; sourceTree = "<group>"; };
+		043CE25F2756D971004C35D1 /* UIImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		043CE2602756D971004C35D1 /* UIButton+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Publisher.swift"; sourceTree = "<group>"; };
+		043CE2612756D971004C35D1 /* UIImageView+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Publisher.swift"; sourceTree = "<group>"; };
+		043CE2622756D971004C35D1 /* UITextField+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
+		043CE2632756D971004C35D1 /* UITextView+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Combine.swift"; sourceTree = "<group>"; };
+		043CE2642756D971004C35D1 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		043CE2652756D972004C35D1 /* UIControl+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Publisher.swift"; sourceTree = "<group>"; };
+		043CE2662756D972004C35D1 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		043CE2AB2756DED5004C35D1 /* PhoneValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneValidationRule.swift; sourceTree = "<group>"; };
+		043CE2AC2756DED5004C35D1 /* UsernameValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameValidationRule.swift; sourceTree = "<group>"; };
+		043CE2AD2756DED5004C35D1 /* NameValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameValidationRule.swift; sourceTree = "<group>"; };
+		043CE2AE2756DED5004C35D1 /* PasswordValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidationRule.swift; sourceTree = "<group>"; };
+		043CE2AF2756DED5004C35D1 /* MatchingPasswordValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingPasswordValidationRule.swift; sourceTree = "<group>"; };
+		043CE2B02756DED5004C35D1 /* EmailValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationRule.swift; sourceTree = "<group>"; };
+		043CE2B12756DED5004C35D1 /* ValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
 		04966062ACF370F816B2380D /* libPods-RamySDKUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamySDKUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8AF27BE6215AB16E12C282 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "Cairo/Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		12637F5A413B36530692D78D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -434,6 +472,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043CE2AA2756DED5004C35D1 /* Validation Rules */ = {
+			isa = PBXGroup;
+			children = (
+				043CE2AB2756DED5004C35D1 /* PhoneValidationRule.swift */,
+				043CE2AC2756DED5004C35D1 /* UsernameValidationRule.swift */,
+				043CE2AD2756DED5004C35D1 /* NameValidationRule.swift */,
+				043CE2AE2756DED5004C35D1 /* PasswordValidationRule.swift */,
+				043CE2AF2756DED5004C35D1 /* MatchingPasswordValidationRule.swift */,
+				043CE2B02756DED5004C35D1 /* EmailValidationRule.swift */,
+				043CE2B12756DED5004C35D1 /* ValidationRule.swift */,
+			);
+			path = "Validation Rules";
+			sourceTree = "<group>";
+		};
 		0C9466F2E7301738A6E82361 /* Cairo */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1043,7 @@
 		B8949EC426644DE100E7472E /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				043CE2AA2756DED5004C35D1 /* Validation Rules */,
 				B8949EC526644DE100E7472E /* LocalError.swift */,
 				B8949EC626644DE100E7472E /* Validations */,
 				B8949ECA26644DE100E7472E /* Services */,
@@ -1077,6 +1130,18 @@
 		B8949EE526644DE100E7472E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				043CE25C2756D971004C35D1 /* Codable+Helpers.swift */,
+				043CE2642756D971004C35D1 /* Date+Extensions.swift */,
+				043CE2602756D971004C35D1 /* UIButton+Publisher.swift */,
+				043CE2662756D972004C35D1 /* UICollectionView+Extensions.swift */,
+				043CE2652756D972004C35D1 /* UIControl+Publisher.swift */,
+				043CE25B2756D971004C35D1 /* UIControlEvent+Combine.swift */,
+				043CE25D2756D971004C35D1 /* UIControlTarget+Combine.swift */,
+				043CE25E2756D971004C35D1 /* UIGestures+Publisher.swift */,
+				043CE25F2756D971004C35D1 /* UIImageView+Kingfisher.swift */,
+				043CE2612756D971004C35D1 /* UIImageView+Publisher.swift */,
+				043CE2622756D971004C35D1 /* UITextField+Publisher.swift */,
+				043CE2632756D971004C35D1 /* UITextView+Combine.swift */,
 				B8949EE626644DE100E7472E /* Array+Extensions.swift */,
 				B8949EE726644DE100E7472E /* Codable+Helpers.swift */,
 				B8949EE826644DE100E7472E /* Aliases.swift */,
@@ -1473,6 +1538,7 @@
 			files = (
 				B8949F1526644DE100E7472E /* UserDefaultsStorage.swift in Sources */,
 				B8949E8E26644DBC00E7472E /* BasicTextField.swift in Sources */,
+				043CE26B2756D972004C35D1 /* UIImageView+Kingfisher.swift in Sources */,
 				B8949F4326644DE100E7472E /* Rx+Extensions.swift in Sources */,
 				B8949F3E26644DE100E7472E /* Array+Extensions.swift in Sources */,
 				B8949E8526644DBC00E7472E /* ImageView.swift in Sources */,
@@ -1483,6 +1549,7 @@
 				B8949E8026644DBC00E7472E /* ContainerCollectionViewCell.swift in Sources */,
 				B87654B82667E34B00E19EA7 /* R.generated.swift in Sources */,
 				B8949E5126644DBC00E7472E /* ActionKit.swift in Sources */,
+				043CE2712756D972004C35D1 /* UIControl+Publisher.swift in Sources */,
 				B88D5E7C268B9DEA00FD4288 /* Service.swift in Sources */,
 				B8949E7A26644DBC00E7472E /* ButtonComponent.swift in Sources */,
 				B8949F4F26644DE100E7472E /* ScenePluggableDelegate.swift in Sources */,
@@ -1495,6 +1562,7 @@
 				B8949E9226644DBC00E7472E /* ScrollView.swift in Sources */,
 				B8949F1126644DE100E7472E /* Secret.swift in Sources */,
 				B8949E7526644DBC00E7472E /* StackViewComponent.swift in Sources */,
+				043CE2B32756DED5004C35D1 /* UsernameValidationRule.swift in Sources */,
 				B8949F4B26644DE100E7472E /* BaseViewController.swift in Sources */,
 				B8949E8F26644DBC00E7472E /* PickerView.swift in Sources */,
 				B8949F2026644DE100E7472E /* TransferToWalletTask.swift in Sources */,
@@ -1507,6 +1575,7 @@
 				B8949E4F26644DBC00E7472E /* FirebasePlugin.swift in Sources */,
 				B87654B326670BB700E19EA7 /* ThemePlugin.swift in Sources */,
 				B8949F2826644DE100E7472E /* Router.swift in Sources */,
+				043CE2692756D972004C35D1 /* UIControlTarget+Combine.swift in Sources */,
 				B8949F4426644DE100E7472E /* Bool+Extension.swift in Sources */,
 				B87654AE2666508A00E19EA7 /* Fonts.swift in Sources */,
 				B8949E5926644DBC00E7472E /* UIViewController+Extensions.swift in Sources */,
@@ -1518,12 +1587,14 @@
 				B8949F1726644DE100E7472E /* StorageKey.swift in Sources */,
 				B8949F2926644DE100E7472E /* LocalError.swift in Sources */,
 				B8949F5026644DE200E7472E /* ServiceLocator.swift in Sources */,
+				043CE26A2756D972004C35D1 /* UIGestures+Publisher.swift in Sources */,
 				B8949F2126644DE100E7472E /* VerbosePlugin.swift in Sources */,
 				B8949F1926644DE100E7472E /* CacheProtocol.swift in Sources */,
 				B8949E8726644DBC00E7472E /* ImageSliderItemViewModel.swift in Sources */,
 				B8949F2F26644DE100E7472E /* UserSettingsService.swift in Sources */,
 				B8949E9726644DBC00E7472E /* PhoneNumberTextField.swift in Sources */,
 				B8949F3C26644DE100E7472E /* MoneyTransformer.swift in Sources */,
+				043CE2B22756DED5004C35D1 /* PhoneValidationRule.swift in Sources */,
 				B8949E9826644DBC00E7472E /* PullToRefreshPlugin.swift in Sources */,
 				B8949F3A26644DE100E7472E /* Dynamic.swift in Sources */,
 				B8CB72D1269B23B400B1930A /* PulseLogger.swift in Sources */,
@@ -1541,10 +1612,13 @@
 				B8949E5326644DBC00E7472E /* VisualContent.swift in Sources */,
 				B8949E7F26644DBC00E7472E /* PagingCollectionViewLayout.swift in Sources */,
 				B8949F2726644DE100E7472E /* UserEndpoint.swift in Sources */,
+				043CE2702756D972004C35D1 /* Date+Extensions.swift in Sources */,
 				B8949F3F26644DE100E7472E /* Codable+Helpers.swift in Sources */,
 				B8949E4E26644DBC00E7472E /* UtilsPlugin.swift in Sources */,
+				043CE2B52756DED5004C35D1 /* PasswordValidationRule.swift in Sources */,
 				B8949F5426644DE200E7472E /* User.swift in Sources */,
 				B8949F3826644DE100E7472E /* SessionTimerService.swift in Sources */,
+				043CE2672756D972004C35D1 /* UIControlEvent+Combine.swift in Sources */,
 				B8949F4726644DE100E7472E /* Dispatch+Additions.swift in Sources */,
 				B8949E9426644DBC00E7472E /* TextView.swift in Sources */,
 				B88D5E81268BA0AD00FD4288 /* SentryService.swift in Sources */,
@@ -1561,6 +1635,7 @@
 				B8949F3426644DE100E7472E /* RepositoryService.swift in Sources */,
 				B8949E4926644DBC00E7472E /* Configurations.swift in Sources */,
 				B8949F1C26644DE100E7472E /* MockedNetworkManager.swift in Sources */,
+				043CE26C2756D972004C35D1 /* UIButton+Publisher.swift in Sources */,
 				B8949E5726644DBC00E7472E /* ButtonStyle.swift in Sources */,
 				B8949F5126644DE200E7472E /* LoadableViewController.swift in Sources */,
 				B8949F1426644DE100E7472E /* EncryptedStorage.swift in Sources */,
@@ -1569,7 +1644,10 @@
 				B8949F1326644DE100E7472E /* DiskStorage.swift in Sources */,
 				B8949F2526644DE100E7472E /* RequestEndpoint.swift in Sources */,
 				B8949E8626644DBC00E7472E /* ImageSliderItemView.swift in Sources */,
+				043CE2B42756DED5004C35D1 /* NameValidationRule.swift in Sources */,
+				043CE2B62756DED5004C35D1 /* MatchingPasswordValidationRule.swift in Sources */,
 				B8949E8226644DBC00E7472E /* PopupViewModel.swift in Sources */,
+				043CE2B72756DED5004C35D1 /* EmailValidationRule.swift in Sources */,
 				B8949F5226644DE200E7472E /* NoContent.swift in Sources */,
 				B8949F4C26644DE100E7472E /* BaseViewModel.swift in Sources */,
 				B83A700D2664B10300F76930 /* RatingsFactory.swift in Sources */,
@@ -1584,6 +1662,7 @@
 				B8949E5B26644DBC00E7472E /* String+Extensions.swift in Sources */,
 				B8949E4A26644DBC00E7472E /* AppearancePlugin.swift in Sources */,
 				B8949E9A26644DBC00E7472E /* SceneDelegate.swift in Sources */,
+				043CE26D2756D972004C35D1 /* UIImageView+Publisher.swift in Sources */,
 				B8949E5626644DBC00E7472E /* UILayoutPriority+Extensions.swift in Sources */,
 				B8949F3D26644DE100E7472E /* TimeAgo.swift in Sources */,
 				B8949E4C26644DBC00E7472E /* AppCenterPlugin.swift in Sources */,
@@ -1601,11 +1680,14 @@
 				B8949E7926644DBC00E7472E /* EmptyStateComponent.swift in Sources */,
 				B8949E9926644DBC00E7472E /* Plugin.swift in Sources */,
 				B8949F1A26644DE100E7472E /* ExternalsProtocols.swift in Sources */,
+				043CE26E2756D972004C35D1 /* UITextField+Publisher.swift in Sources */,
 				B8949F3326644DE100E7472E /* CacheFetcher.swift in Sources */,
 				B8949E8C26644DBC00E7472E /* Label.swift in Sources */,
 				B8949F4D26644DE100E7472E /* BaseInteractor.swift in Sources */,
 				B8949E4826644DBC00E7472E /* Dimensions.swift in Sources */,
+				043CE26F2756D972004C35D1 /* UITextView+Combine.swift in Sources */,
 				B8949E8926644DBC00E7472E /* EmptyStateViewModel.swift in Sources */,
+				043CE2682756D972004C35D1 /* Codable+Helpers.swift in Sources */,
 				B8949F2326644DE100E7472E /* WalletEndpoint.swift in Sources */,
 				B8949E6026644DBC00E7472E /* PropertyStoring.swift in Sources */,
 				B8949E8826644DBC00E7472E /* ImageSliderViewController.swift in Sources */,
@@ -1618,7 +1700,9 @@
 				B8949E5526644DBC00E7472E /* Style.swift in Sources */,
 				B8949E7B26644DBC00E7472E /* SeparatorComponent.swift in Sources */,
 				B8949E9026644DBC00E7472E /* InformationUIBuilder.swift in Sources */,
+				043CE2722756D972004C35D1 /* UICollectionView+Extensions.swift in Sources */,
 				B8949F2426644DE100E7472E /* TransactionEndpoint.swift in Sources */,
+				043CE2B82756DED5004C35D1 /* ValidationRule.swift in Sources */,
 				B8949F3726644DE100E7472E /* BiometricPinAuthService.swift in Sources */,
 				B8949F3226644DE100E7472E /* RepositoryFetcherProtocol.swift in Sources */,
 			);

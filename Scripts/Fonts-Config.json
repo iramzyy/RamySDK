@@ -1,11 +1,11 @@
 {
   "source": "../SDK-Fonts",
-  "destination": "~/Desktop/Workstation/iOS/NerdorSDKs/Productivitii/Shared/UI/Fonts",
-  "project_path": "../../Productivitii/Productivitii.xcodeproj",
+  "destination": "~/Desktop/Workstation/iOS/ARamy/ARamy/Core/UI/Design System/Fonts",
+  "project_path": "../../ARamy/ARamy.xcodeproj",
   "supported_weights": ["Regular", "Bold"],
   "fonts": [
     {
-      "family": "SF-Pro-Rounded",
+      "family": "SFProRounded",
       "locale": "english",
       "type": "sans-serif"
     },
